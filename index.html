@@ -186,6 +186,51 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
 .float-wa{position:fixed;right:16px;bottom:16px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center;text-decoration:none;box-shadow:0 12px 26px rgba(18,140,74,.45);font-size:28px}
 .float-wa:after{content:"Chat karo";position:absolute;right:70px;background:var(--ink);color:var(--bg);font-size:13px;font-weight:800;padding:8px 11px;border-radius:999px;white-space:nowrap}
 @media(max-width:480px){.float-wa:after{display:none}}
+.head-btn.points{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#2B1500;border-color:#FFE082;box-shadow:0 4px 14px rgba(255,179,0,.45)}
+.points-strip{margin:16px 0 0;border-radius:18px;background:linear-gradient(90deg,#FFB300,#FF7A1A);color:#2B1500;padding:20px 22px;display:flex;align-items:center;gap:18px;flex-wrap:wrap;box-shadow:0 10px 28px rgba(243,93,0,.28);border:2px solid #FFD23F}
+.points-strip .ps-txt{flex:1;min-width:230px}
+.points-strip .ps-txt b{font-family:"Archivo";font-size:clamp(21px,3.6vw,28px);display:block;line-height:1.15}
+.points-strip .ps-txt span{font-weight:700;font-size:15px;opacity:.85}
+.points-strip .btn{font-size:17px;min-height:56px;padding:14px 24px;border-radius:12px;white-space:nowrap}
+.benefit-grid{display:grid;gap:11px;margin:22px 0;position:relative;z-index:1}
+@media(min-width:640px){.benefit-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:980px){.benefit-grid{grid-template-columns:repeat(3,1fr)}}
+.benefit{background:rgba(255,255,255,.09);border:1px solid rgba(255,210,63,.35);border-radius:14px;padding:16px;display:flex;gap:12px;align-items:flex-start}
+.benefit .bic{font-size:26px;line-height:1.1;flex-shrink:0}
+.benefit b{display:block;font-size:16px;line-height:1.3}
+.benefit span{display:block;color:#F5D9A8;font-weight:600;font-size:13.5px;margin-top:3px;line-height:1.45}
+.benefit.hero-ben{background:linear-gradient(135deg,#FFB300,#FF8A1E);border-color:#FFD23F;color:#2B1500}
+.benefit.hero-ben span{color:#5C2E00}
+.loyalty-cta{display:flex;gap:12px;flex-wrap:wrap;position:relative;z-index:1;align-items:center}
+.loyalty-cta .btn{font-size:18px;min-height:60px;padding:16px 26px;border-radius:13px}
+.loyalty-note{position:relative;z-index:1;color:#F5D9A8;font-weight:700;font-size:14px;margin-top:14px}
+.links-grid{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:760px){.links-grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1080px){.links-grid{grid-template-columns:repeat(4,1fr)}}
+.link-card{background:var(--surface);border:1.5px solid var(--line);border-radius:16px;padding:18px 14px;text-decoration:none;display:flex;flex-direction:column;gap:5px;box-shadow:var(--shadow);transition:.15s;min-height:118px}
+.link-card:active{transform:scale(.98)}
+.link-card .lic{font-size:30px;line-height:1}
+.link-card b{font-size:16px;line-height:1.25}
+.link-card span{font-size:13px;font-weight:600;color:var(--muted);line-height:1.45}
+.link-card .lgo{margin-top:auto;font-weight:800;font-size:13.5px;color:var(--orange)}
+.link-card.hl{background:linear-gradient(135deg,#FFB300,#FF7A1A);border-color:#FFB300;color:#2B1500}
+.link-card.hl span{color:#5C2E00}
+.link-card.hl .lgo{color:#2B1500}
+.games-zone{background:linear-gradient(135deg,#E64E00,#F96302 45%,#FFB300);border-radius:22px;padding:clamp(22px,4vw,36px);position:relative;overflow:hidden;box-shadow:0 14px 34px rgba(243,93,0,.30)}
+.games-zone:before{content:"🎁";position:absolute;right:6px;top:-24px;font-size:150px;opacity:.14;line-height:1}
+.games-zone h2{color:#fff;font-size:clamp(27px,5vw,38px);position:relative}
+.games-zone .gz-sub{color:#FFE9C4;font-weight:700;margin-top:8px;font-size:16px;position:relative;max-width:640px}
+.game-grid{display:grid;gap:16px;margin-top:22px;position:relative}
+@media(min-width:760px){.game-grid{grid-template-columns:1fr 1fr}}
+.game-card{background:#fff;border-radius:18px;padding:26px 22px;color:#221306;box-shadow:0 10px 24px rgba(90,30,0,.22);display:flex;flex-direction:column}
+@media(prefers-color-scheme:dark){.game-card{background:#2E1D09;color:#FFF3DC}}
+.game-card .gic{font-size:52px;line-height:1}
+.game-card h3{font-size:clamp(26px,4.5vw,34px);font-weight:900;margin:12px 0 6px;letter-spacing:.01em}
+.game-card .gline{font-weight:800;font-size:17px;color:var(--orange)}
+.game-card .gifts{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 18px}
+.game-card .gifts span{background:var(--orange-soft);border:1px solid var(--line);font-weight:700;font-size:12.5px;padding:6px 10px;border-radius:999px}
+.game-card .btn{margin-top:auto;font-size:17px;min-height:56px;border-radius:12px}
+.game-card p.gnote{font-size:13.5px;font-weight:600;color:var(--muted);margin-top:12px}
 </style>
 </head>
 <body>
@@ -209,6 +254,7 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
       <button type="submit" aria-label="Search">🔍 Dhundo</button>
     </form>
     <div class="head-btns">
+      <a class="head-btn points" href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener">⭐ Points Check</a>
       <a class="head-btn" href="tel:+919592717735">📞 Call</a>
       <a class="head-btn solid" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20phone%20ke%20baare%20me%20jaankari%20chahiye" target="_blank" rel="noopener">💬 WhatsApp</a>
     </div>
@@ -219,8 +265,11 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
       <a href="#brands">🏷️ Brands</a>
       <a href="#budget">💰 Budget Phones</a>
       <a href="#fiveg">📶 5G Mobiles</a>
-      <a href="#loyalty">⭐ Loyalty Points</a>
-      <a href="#fun">🎁 Offers Khelo</a>
+      <a href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener" style="background:#FFB300;color:#2B1500;font-weight:800">⭐ Points Check Karo</a>
+      <a href="#loyalty">🎁 Loyalty Fayde</a>
+      <a href="#fun">🎟️ Scratch &amp; Win</a>
+      <a href="#fun">🎡 Spin &amp; Win</a>
+      <a href="#links">🔗 Saare Link</a>
       <a href="#visit">📍 Dukaan Par Aao</a>
     </div>
   </nav>
@@ -242,6 +291,13 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
         <span>🔄 Purana phone exchange</span>
         <span>🕚 Aaj khula hai • 11 AM – 9 PM</span>
       </div>
+    </div>
+    <div class="points-strip">
+      <div class="ps-txt">
+        <b>⭐ Apne Points Check Karo!</b>
+        <span>Mobile World Points — har Rs.100 ki kharid par 1 Point (1 Point = Rs.1). Points kabhi expire nahi hote!</span>
+      </div>
+      <a class="btn btn-dark" href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener">⭐ POINTS CHECK KARO →</a>
     </div>
   </div>
 
@@ -331,39 +387,74 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
 
   <section id="loyalty">
     <div class="wrap">
-      <div class="loyalty">
-        <h2>Mobile World Loyalty Program ⭐</h2>
-        <p class="sub">Har kharid par points kamao aur agli shopping par rupe ki tarah use karo. Ek baar member bano, fayda har baar pao.</p>
-        <div class="points-grid">
-          <div class="point-box"><b>Har Rs.100 = 1 Point</b><span>Rs.5,000 se upar ke bill par • 1 Point = Rs.1</span></div>
-          <div class="point-box"><b>Points kabhi expire nahi</b><span>Agli Rs.5,000+ shopping par saare points use karo — koi limit nahi</span></div>
+      <div class="loyalty" style="padding:clamp(26px,4.5vw,40px)">
+        <h2 style="font-size:clamp(28px,5vw,40px)">⭐ Mobile World Points</h2>
+        <p class="sub" style="font-size:16.5px">Har kharid par points kamao aur agli shopping par rupe ki tarah use karo. Ek baar member bano — fayda har baar pao. Ye rahe customer ke SAARRE fayde:</p>
+        <div class="benefit-grid">
+          <div class="benefit hero-ben"><span class="bic">🪙</span><div><b>Har Rs.100 ki kharid = 1 Point</b><span>1 Point = Rs.1 — points seedha rupe ki tarah agli shopping me kam hote hain</span></div></div>
+          <div class="benefit"><span class="bic">🧾</span><div><b>Rs.5,000+ ki shopping par points milte hain</b><span>Phone ho ya accessories — Rs.5,000 se upar ke har bill par points judte hain</span></div></div>
+          <div class="benefit"><span class="bic">♾️</span><div><b>Points KABHI expire nahi hote</b><span>Aaj kamao, jab marzi use karo — koi last date, koi jaldi nahi</span></div></div>
+          <div class="benefit"><span class="bic">🎉</span><div><b>Naye customer ko 50 Points FREE</b><span>Welcome bonus — member bante hi 50 points seedha aapke khaate me</span></div></div>
+          <div class="benefit"><span class="bic">👥</span><div><b>Dost ko lao — 100 Referral Points</b><span>Dost ya rishtedaar ko dukaan par lao, uski kharid par aapko 100 points</span></div></div>
+          <div class="benefit"><span class="bic">🎂</span><div><b>Birthday par 100 Points FREE</b><span>Aapke janamdin ka khaas tohfa — har saal 100 points bilkul muft</span></div></div>
+          <div class="benefit"><span class="bic">⭐</span><div><b>Google Review do — 50 Points</b><span>5-star review dikhao aur counter par 50 points apne khaate me judwao</span></div></div>
+          <div class="benefit"><span class="bic">👨‍👩‍👧</span><div><b>Family ke 3 number — points ek saath</b><span>Ghar ke 3 number tak ek hi khaate se jud sakte hain, poori family ke points ek jagah judte hain</span></div></div>
+          <div class="benefit"><span class="bic">🍀</span><div><b>Har Rs.5,000+ bill par Lucky Draw entry</b><span>Har bade bill ke saath Lucky Draw me naam — bade inaam jeetne ka mauka</span></div></div>
         </div>
-        <div class="bonus-row">
-          <span class="bonus">🎉 Welcome — 50 Points FREE</span>
-          <span class="bonus">👥 Referral — 100 Points</span>
-          <span class="bonus">🎂 Birthday — 100 Points FREE</span>
-          <span class="bonus">⭐ Review — 50 Points</span>
-          <span class="bonus">🍀 Har bade bill par Lucky Draw entry</span>
+        <div class="loyalty-cta">
+          <a class="btn btn-gold" href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener">⭐ APNE POINTS CHECK KARO / MEMBER BANO →</a>
+          <a class="btn btn-wa" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Loyalty%20Points%20member%20banna%20hai" target="_blank" rel="noopener" style="min-height:60px;font-size:16px">💬 WhatsApp Par Member Bano</a>
         </div>
-        <a class="btn btn-gold" href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener" style="position:relative;z-index:1">⭐ Apne Points Check Karo / Member Bano</a>
+        <p class="loyalty-note">👆 Button dabao, apna mobile number daalo — aapka points balance turant dikh jayega. Abhi member nahi ho? Wahi se jud jao, 50 Welcome Points FREE milenge!</p>
       </div>
     </div>
   </section>
 
   <section id="fun">
     <div class="wrap">
-      <div class="sec-head"><div><h2>Khelo aur gift jeeto 🎁</h2><p>Dukaan ke khaas customer offers — khelo, jeeto, dukaan par claim karo.</p></div></div>
-      <div class="fun-grid">
-        <a class="fun-card fun-spin" href="https://mobileworldchheharta.github.io/spin-wheel/" target="_blank" rel="noopener">
-          <h3>🎡 Spin Wheel</h3>
-          <p>Wheel ghumao aur Gift Jeeto — Tempered Glass, Earphones, Speaker, Discount Coupon aur bhi bahut kuch!</p>
-          <span class="go">Abhi Spin Karo →</span>
-        </a>
-        <a class="fun-card fun-scratch" href="https://mobileworldchheharta.github.io/scratch-coupon/" target="_blank" rel="noopener">
-          <h3>🎟️ Scratch Coupon</h3>
-          <p>Product kharidne wale customers ke liye khaas scratch card — card chuno, scratch karo, surprise gift pao!</p>
-          <span class="go">Coupon Khelo →</span>
-        </a>
+      <div class="games-zone">
+        <h2>🎁 Games Zone — Khelo Aur Jeeto!</h2>
+        <p class="gz-sub">Mobile World ke do dhamakedaar game — bilkul FREE khelo, gift jeeto aur dukaan par claim karo!</p>
+        <div class="game-grid">
+          <div class="game-card">
+            <span class="gic">🎟️</span>
+            <h3>SCRATCH &amp; WIN</h3>
+            <p class="gline">Coupon scratch karo, inaam jeeto!</p>
+            <div class="gifts">
+              <span>🛡️ Free Tempered Glass</span><span>🎧 Airpods</span><span>🎵 Earphones</span><span>🎤 Neckband</span><span>🔊 Speaker</span><span>🏷️ Discount Coupons</span>
+            </div>
+            <a class="btn btn-gold" href="https://mobileworldchheharta.github.io/scratch-coupon/" target="_blank" rel="noopener">🎟️ Abhi Khelo — Scratch Karo →</a>
+            <p class="gnote">Product kharidne wale customers ke liye khaas — card chuno, ungli se scratch karo, surprise gift pao!</p>
+          </div>
+          <div class="game-card">
+            <span class="gic">🎡</span>
+            <h3>SPIN &amp; WIN</h3>
+            <p class="gline">Wheel ghumao, gift jeeto!</p>
+            <div class="gifts">
+              <span>🛡️ Free Tempered Glass</span><span>🎧 Airpods</span><span>🎵 Earphones</span><span>🎤 Neckband</span><span>🔊 Speaker</span><span>🏷️ ₹100 Discount Coupon</span>
+            </div>
+            <a class="btn btn-gold" href="https://mobileworldchheharta.github.io/spin-wheel/" target="_blank" rel="noopener">🎡 Abhi Khelo — Spin Karo →</a>
+            <p class="gnote">Ek tap me wheel ghumega — jo gift aaya, wahi tumhara! Dukaan par dikha kar claim karo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="links">
+    <div class="wrap">
+      <div class="sec-head"><div><h2>🔗 Saare Link — Ek Jagah</h2><p>Mobile World ki har seva ek hi jagah — jo chahiye, bas tap karo.</p></div></div>
+      <div class="links-grid">
+        <a class="link-card hl" href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener"><span class="lic">⭐</span><b>Points Check Karo</b><span>Apna loyalty points balance dekho / member bano — 50 points FREE</span><span class="lgo">Points Dekho →</span></a>
+        <a class="link-card" href="https://mobileworldchheharta.github.io/scratch-coupon/" target="_blank" rel="noopener"><span class="lic">🎟️</span><b>Scratch &amp; Win</b><span>Coupon scratch karo, inaam jeeto — kharidari wale customers ke liye</span><span class="lgo">Abhi Khelo →</span></a>
+        <a class="link-card" href="https://mobileworldchheharta.github.io/spin-wheel/" target="_blank" rel="noopener"><span class="lic">🎡</span><b>Spin &amp; Win</b><span>Wheel ghumao, gift jeeto — Tempered Glass, Airpods, Speaker aur coupons</span><span class="lgo">Abhi Khelo →</span></a>
+        <a class="link-card" href="https://search.google.com/local/writereview?placeid=ChIJWUe9wjRlGTkRNufJO95aopc" target="_blank" rel="noopener"><span class="lic">🌟</span><b>Google Review Do</b><span>5-star review do aur 50 loyalty points pao</span><span class="lgo">Review Do →</span></a>
+        <a class="link-card" href="https://mobileworldchheharta.github.io/mobile-world-profile/" target="_blank" rel="noopener"><span class="lic">👤</span><b>Shop Profile Page</b><span>Dukaan ki digital profile — contact save karo, saari jaankari ek jagah</span><span class="lgo">Profile Dekho →</span></a>
+        <a class="link-card" href="https://chat.whatsapp.com/JFOWpwxGsHuLM4SogmP4ab" target="_blank" rel="noopener"><span class="lic">👥</span><b>WhatsApp Community</b><span>Naye offers aur deals sabse pehle — community join karo</span><span class="lgo">Join Karo →</span></a>
+        <a class="link-card" href="https://www.instagram.com/mobileworldchheharta/" target="_blank" rel="noopener"><span class="lic">📸</span><b>Instagram</b><span>@mobileworldchheharta — naye phone, offers aur reels</span><span class="lgo">Follow Karo →</span></a>
+        <a class="link-card" href="https://maps.app.goo.gl/EuW7bQib6asVea2P6" target="_blank" rel="noopener"><span class="lic">📍</span><b>Shop Location</b><span>Pratap Bazaar, Chheharta, Amritsar — Google Maps par rasta dekho</span><span class="lgo">Rasta Dekho →</span></a>
+        <a class="link-card" href="tel:+919592717735"><span class="lic">📞</span><b>Call Karo</b><span>95927 17735 — roz 11 AM se 9 PM, seedha dukaan par baat karo</span><span class="lgo">Call Karo →</span></a>
+        <a class="link-card" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20phone%20ke%20baare%20me%20jaankari%20chahiye" target="_blank" rel="noopener"><span class="lic">💬</span><b>WhatsApp Chat</b><span>Kisi bhi phone ka daam aur stock WhatsApp par pucho</span><span class="lgo">Chat Karo →</span></a>
       </div>
     </div>
   </section>
@@ -436,10 +527,14 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
         <h3 style="font-size:17px">Quick Links</h3>
         <ul>
           <li><a href="#latest">Latest Smartphones</a></li>
-          <li><a href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener">Loyalty Points Check</a></li>
-          <li><a href="https://mobileworldchheharta.github.io/spin-wheel/" target="_blank" rel="noopener">Spin Wheel</a></li>
-          <li><a href="https://mobileworldchheharta.github.io/scratch-coupon/" target="_blank" rel="noopener">Scratch Coupon</a></li>
+          <li><a href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener">⭐ Loyalty Points Check</a></li>
+          <li><a href="https://mobileworldchheharta.github.io/scratch-coupon/" target="_blank" rel="noopener">Scratch &amp; Win</a></li>
+          <li><a href="https://mobileworldchheharta.github.io/spin-wheel/" target="_blank" rel="noopener">Spin &amp; Win</a></li>
+          <li><a href="https://search.google.com/local/writereview?placeid=ChIJWUe9wjRlGTkRNufJO95aopc" target="_blank" rel="noopener">Google Review — 50 Points</a></li>
+          <li><a href="https://mobileworldchheharta.github.io/mobile-world-profile/" target="_blank" rel="noopener">Shop Profile Page</a></li>
+          <li><a href="https://chat.whatsapp.com/JFOWpwxGsHuLM4SogmP4ab" target="_blank" rel="noopener">WhatsApp Community</a></li>
           <li><a href="https://www.instagram.com/mobileworldchheharta/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://maps.app.goo.gl/EuW7bQib6asVea2P6" target="_blank" rel="noopener">Shop Location (Maps)</a></li>
         </ul>
       </div>
     </div>

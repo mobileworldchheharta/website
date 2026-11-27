@@ -78,7 +78,7 @@ section{padding:30px 0 4px}
 .sec-head p{color:var(--muted);font-weight:600;margin-top:5px;font-size:15px}
 .brand-row{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 12px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .brand-row::-webkit-scrollbar{display:none}
-@media(min-width:900px){.brand-row{justify-content:space-between;overflow:visible}}
+@media(min-width:900px){.brand-row{justify-content:center;overflow:visible;flex-wrap:wrap}}
 @media(max-width:899px){.brand-row{flex-wrap:wrap;overflow:visible;justify-content:center;row-gap:16px}}
 .brand-tile{background:none;border:0;cursor:pointer;font-family:inherit;color:var(--ink);text-align:center;flex:0 0 auto;width:84px;padding:0}
 .brand-tile .circ{width:72px;height:72px;margin:0 auto 8px;border-radius:50%;display:grid;place-items:center;font-family:"Archivo";font-weight:900;font-size:22px;color:#fff;border:2.5px solid transparent;transition:.15s;box-shadow:var(--shadow)}
@@ -93,6 +93,16 @@ section{padding:30px 0 4px}
 .b-realme{background:linear-gradient(135deg,#D97706,#FACC15);color:#3A2500}
 .b-oneplus{background:linear-gradient(135deg,#B91C1C,#EF4444)}
 .b-infinix{background:linear-gradient(135deg,#065F46,#22C55E)}
+.b-redmi{background:linear-gradient(135deg,#C2410C,#F97316)}
+.b-motorola{background:linear-gradient(135deg,#0E5A6D,#2DD4BF)}
+.b-nothing{background:linear-gradient(135deg,#26262B,#000)}
+.b-google{background:linear-gradient(135deg,#1A3A6B,#4285F4)}
+.b-tecno{background:linear-gradient(135deg,#7C2D12,#EA580C)}
+.b-nokia{background:linear-gradient(135deg,#1E3A8A,#3B82F6)}
+.b-lava{background:linear-gradient(135deg,#9A3412,#DC2626)}
+.b-aiplus{background:linear-gradient(135deg,#6D28D9,#A78BFA)}
+.b-keypad{background:linear-gradient(135deg,#57534E,#292524)}
+.tag-key{position:absolute;top:10px;left:10px;background:#44403C;color:#fff;font-size:11px;font-weight:800;padding:4px 8px;border-radius:6px;letter-spacing:.05em;z-index:2}
 .brand-clear{margin-top:2px}
 /* ===== CUSTOMER PHOTOS STRIP ===== */
 .cust-strip{position:relative;overflow:hidden;border-radius:18px;background:var(--bg2);border:1px solid var(--line)}
@@ -111,15 +121,6 @@ section{padding:30px 0 4px}
 .search{display:flex;background:#fff;border:1.5px solid var(--line);border-radius:999px;overflow:hidden;box-shadow:var(--shadow);margin-bottom:14px}
 .search input{flex:1;border:0;outline:none;padding:13px 18px;font:inherit;font-size:15px;font-weight:600;color:var(--ink);background:#fff;min-width:0}
 .search button{border:0;background:var(--red);color:#fff;font:inherit;font-weight:800;padding:0 20px;cursor:pointer;font-size:15px}
-.budget-grid{display:grid;gap:10px;grid-template-columns:repeat(2,1fr)}
-@media(min-width:760px){.budget-grid{grid-template-columns:repeat(3,1fr)}}
-@media(min-width:1024px){.budget-grid{grid-template-columns:repeat(5,1fr)}}
-.budget-card{border-radius:14px;padding:15px;text-align:left;cursor:pointer;font-family:inherit;border:1.5px solid var(--line);background:#fff;color:var(--ink);width:100%;transition:.15s}
-.budget-card:active{transform:scale(.98)}
-.budget-card .ic{font-size:22px}
-.budget-card b{display:block;font-family:"Archivo";font-size:16.5px;margin:6px 0 2px}
-.budget-card span{font-size:12.5px;font-weight:600;color:var(--muted)}
-.budget-card.active{border-color:var(--red);background:var(--red-soft)}
 .sec-count{font-weight:800;font-size:14px;color:var(--red);white-space:nowrap}
 .prod-grid{display:grid;gap:14px;grid-template-columns:repeat(2,1fr)}
 @media(min-width:760px){.prod-grid{grid-template-columns:repeat(3,1fr)}}
@@ -253,38 +254,38 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
     <div id="heroTrack">
       <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(228,0,43,.35),transparent 60%),linear-gradient(140deg,#17171C,#3A0A14)">
         <span class="hs-kicker">Apple Authorised Store</span>
-        <h1>iPhone 17 Pro Max</h1>
-        <p>Sabse powerful iPhone — Pro camera, titanium design. Best Price aur Easy EMI ke saath.</p>
+        <h1>iPhone 17 Pro</h1>
+        <p>Apple ka latest Pro iPhone — premium design aur Pro performance, ab Mobile World par uplabdh.</p>
         <div class="hero-phone" style="background:linear-gradient(160deg,#4A4A4A,#111)"><span class="cam"><i></i><i></i></span><span class="bl">Apple</span></div>
-        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20iPhone%2017%20Pro%20Max%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
+        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20iPhone%2017%20Pro%20256GB%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
       </div>
-      <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(47,124,255,.35),transparent 60%),linear-gradient(140deg,#0B1226,#0B2A6B)">
-        <span class="hs-kicker">Galaxy AI</span>
-        <h1>Samsung Galaxy S25 Ultra</h1>
-        <p>Galaxy AI, S-Pen aur 200MP camera — flagship ka raja, Mobile World par uplabdh.</p>
-        <div class="hero-phone" style="background:linear-gradient(160deg,#2F7CFF,#0B2A6B)"><span class="cam"><i></i><i></i></span><span class="bl">Galaxy</span></div>
-        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Samsung%20Galaxy%20S25%20Ultra%205G%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
+      <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(66,133,244,.35),transparent 60%),linear-gradient(140deg,#0B1226,#1A3A6B)">
+        <span class="hs-kicker">Google Pixel</span>
+        <h1>Google Pixel 10</h1>
+        <p>Google ka latest Pixel — saaf Android experience aur smart AI features ke saath.</p>
+        <div class="hero-phone" style="background:linear-gradient(160deg,#4285F4,#1A3A6B)"><span class="cam"><i></i><i></i></span><span class="bl">Pixel</span></div>
+        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Google%20Pixel%2010%208%2F256%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
       </div>
       <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(56,189,248,.3),transparent 60%),linear-gradient(140deg,#081A33,#0B4FD6)">
-        <span class="hs-kicker">Camera Special</span>
-        <h1>Vivo V80</h1>
-        <p>ZEISS-style portrait camera aur slim premium design — photo lovers ki pehli pasand.</p>
+        <span class="hs-kicker">Vivo V Series</span>
+        <h1>Vivo V70 5G</h1>
+        <p>Vivo ki premium V series — stylish design aur tez 5G performance ke saath.</p>
         <div class="hero-phone" style="background:linear-gradient(160deg,#38BDF8,#0B4FD6)"><span class="cam"><i></i><i></i></span><span class="bl">vivo</span></div>
-        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Vivo%20V80%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
+        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Vivo%20V70%205G%208%2F256%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
       </div>
-      <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(52,211,153,.3),transparent 60%),linear-gradient(140deg,#06231A,#065F46)">
-        <span class="hs-kicker">Reno Series</span>
-        <h1>Oppo Reno 14</h1>
-        <p>AI camera aur tez charging ka combo — style ke saath pura performance.</p>
-        <div class="hero-phone" style="background:linear-gradient(160deg,#34D399,#065F46)"><span class="cam"><i></i><i></i></span><span class="bl">oppo</span></div>
-        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Oppo%20Reno%2014%205G%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
+      <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(45,212,191,.3),transparent 60%),linear-gradient(140deg,#06202B,#0E5A6D)">
+        <span class="hs-kicker">Motorola Edge Series</span>
+        <h1>Moto Edge 70 Pro Plus</h1>
+        <p>Motorola ka top Edge model — flagship performance aur premium feel ke saath.</p>
+        <div class="hero-phone" style="background:linear-gradient(160deg,#2DD4BF,#0E5A6D)"><span class="cam"><i></i><i></i></span><span class="bl">moto</span></div>
+        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Moto%20Edge%2070%20Pro%20Plus%2012%2F256%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
       </div>
-      <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(239,68,68,.3),transparent 60%),linear-gradient(140deg,#2A0A0A,#991B1B)">
-        <span class="hs-kicker">Flagship Speed</span>
-        <h1>OnePlus 13</h1>
-        <p>Flagship speed, Hasselblad camera — smooth OxygenOS experience ke saath.</p>
-        <div class="hero-phone" style="background:linear-gradient(160deg,#EF4444,#991B1B)"><span class="cam"><i></i><i></i></span><span class="bl">OnePlus</span></div>
-        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20OnePlus%2013%205G%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
+      <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(47,124,255,.35),transparent 60%),linear-gradient(140deg,#0B1226,#0B2A6B)">
+        <span class="hs-kicker">Samsung Galaxy A Series</span>
+        <h1>Samsung Galaxy A57 5G</h1>
+        <p>Galaxy A series ka naya 5G model — Samsung ke bharose ke saath, Mobile World par uplabdh.</p>
+        <div class="hero-phone" style="background:linear-gradient(160deg,#2F7CFF,#0B2A6B)"><span class="cam"><i></i><i></i></span><span class="bl">Galaxy</span></div>
+        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Samsung%20Galaxy%20A57%205G%2012%2F256%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
       </div>
     </div>
     <button class="hero-arrow prev" id="heroPrev" aria-label="Pichli slide">‹</button>
@@ -302,11 +303,20 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
       <div class="brand-row" id="brandGrid">
         <button class="brand-tile" data-brand="apple"><span class="circ b-apple">A</span><b>Apple</b><small>iPhone</small></button>
         <button class="brand-tile" data-brand="samsung"><span class="circ b-samsung">S</span><b>Samsung</b><small>Galaxy</small></button>
-        <button class="brand-tile" data-brand="vivo"><span class="circ b-vivo">V</span><b>Vivo</b><small>V • Y • T</small></button>
-        <button class="brand-tile" data-brand="oppo"><span class="circ b-oppo">O</span><b>Oppo</b><small>Reno • F • A</small></button>
-        <button class="brand-tile" data-brand="realme"><span class="circ b-realme">R</span><b>Realme</b><small>Number • Narzo</small></button>
-        <button class="brand-tile" data-brand="oneplus"><span class="circ b-oneplus">1+</span><b>OnePlus</b><small>Nord</small></button>
-        <button class="brand-tile" data-brand="infinix"><span class="circ b-infinix">In</span><b>Infinix</b><small>Smart • Note</small></button>
+        <button class="brand-tile" data-brand="vivo"><span class="circ b-vivo">V</span><b>Vivo</b><small>V • Y • T • S</small></button>
+        <button class="brand-tile" data-brand="oppo"><span class="circ b-oppo">O</span><b>Oppo</b><small>F • A • K</small></button>
+        <button class="brand-tile" data-brand="realme"><span class="circ b-realme">R</span><b>Realme</b><small>C • Narzo</small></button>
+        <button class="brand-tile" data-brand="redmi"><span class="circ b-redmi">Re</span><b>Redmi</b><small>Note • Poco</small></button>
+        <button class="brand-tile" data-brand="oneplus"><span class="circ b-oneplus">1+</span><b>OnePlus</b><small>N Series</small></button>
+        <button class="brand-tile" data-brand="infinix"><span class="circ b-infinix">In</span><b>Infinix</b><small>Note • Hot • Smart</small></button>
+        <button class="brand-tile" data-brand="motorola"><span class="circ b-motorola">M</span><b>Motorola</b><small>Edge • G Series</small></button>
+        <button class="brand-tile" data-brand="nothing"><span class="circ b-nothing">N</span><b>Nothing</b><small>Phone</small></button>
+        <button class="brand-tile" data-brand="google"><span class="circ b-google">G</span><b>Google</b><small>Pixel</small></button>
+        <button class="brand-tile" data-brand="tecno"><span class="circ b-tecno">T</span><b>Tecno</b><small>Spark • Pova</small></button>
+        <button class="brand-tile" data-brand="nokia"><span class="circ b-nokia">Nk</span><b>Nokia</b><small>HMD • Smart</small></button>
+        <button class="brand-tile" data-brand="lava"><span class="circ b-lava">L</span><b>Lava</b><small>Shark • Itel bhi</small></button>
+        <button class="brand-tile" data-brand="aiplus"><span class="circ b-aiplus">Ai+</span><b>Ai+</b><small>Nova • Plus</small></button>
+        <button class="brand-tile" data-brand="keypad"><span class="circ b-keypad">☎</span><b>Keypad Phones</b><small>Basic Phones</small></button>
       </div>
       <button class="btn btn-outline brand-clear hidden" id="clearBrand" style="min-height:42px;padding:9px 14px;font-size:14px">✕ Filter Hatao — Sab Brands Dikhao</button>
       <div class="shop-strip">
@@ -341,8 +351,8 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
     <div class="wrap">
       <div class="sec-head" style="display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap">
         <div>
-          <h2>Latest Smartphones</h2>
-          <p>Har phone ka aaj ka best daam dukaan / WhatsApp par confirm hota hai — card se seedha pucho.</p>
+          <h2>Stock Me Uplabdh Models</h2>
+          <p>Ye hamari dukaan ke asal stock ki list hai. Har phone ka aaj ka best daam dukaan / WhatsApp par confirm hota hai — card se seedha pucho.</p>
         </div>
         <span class="sec-count" id="catalogCount"></span>
       </div>
@@ -350,13 +360,6 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
         <input id="searchInput" type="search" placeholder="Phone dhundo — iPhone, Galaxy, Vivo, Reno..." aria-label="Phone search karo" autocomplete="off">
         <button type="submit" aria-label="Search">🔍 Dhundo</button>
       </form>
-      <div class="budget-grid" id="budgetGrid" style="margin-bottom:20px">
-        <button class="budget-card" data-budget="1"><span class="ic">💚</span><b>Rs.10,000 ke andar</b><span>Pehla smartphone, badi battery</span></button>
-        <button class="budget-card" data-budget="2"><span class="ic">📱</span><b>Rs.15,000 ke andar</b><span>Roz ke kaam ke liye best value</span></button>
-        <button class="budget-card" data-budget="3"><span class="ic">📸</span><b>Rs.20,000 ke andar</b><span>Achha camera, 5G, smooth display</span></button>
-        <button class="budget-card" data-budget="4"><span class="ic">⚡</span><b>Rs.30,000 ke andar</b><span>Tez performance, premium feel</span></button>
-        <button class="budget-card" data-budget="5"><span class="ic">👑</span><b>Premium Phones</b><span>iPhone aur flagship models</span></button>
-      </div>
       <div class="prod-grid" id="catalogGrid"></div>
       <div class="empty-msg hidden" id="catalogEmpty">
         😔 Is naam / filter ka koi phone nahi mila.<br>
@@ -490,7 +493,7 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
           <label for="fPhone">Pasand Ka Phone</label>
           <select class="txt" id="fPhone">
             <option>iPhone</option><option>Samsung Galaxy</option><option>Vivo</option><option>Oppo</option>
-            <option>Realme</option><option>OnePlus</option><option>Infinix</option><option>Koi aur phone / Accessories</option>
+            <option>Realme</option><option>Redmi / Poco</option><option>OnePlus</option><option>Infinix</option><option>Motorola</option><option>Google Pixel</option><option>Nothing</option><option>Tecno</option><option>Nokia / Lava / Ai+</option><option>Keypad Phone</option><option>Koi aur phone / Accessories</option>
           </select>
           <label for="fMsg">Kuch aur batana hai? (optional)</label>
           <input class="txt" id="fMsg" type="text" placeholder="Jaise: Exchange me purana phone hai, EMI chahiye...">
@@ -533,12 +536,12 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
       </div>
       <div>
         <h3 style="font-size:17px">Brands</h3>
-        <ul><li>Apple • Samsung • OnePlus</li><li>Vivo • Oppo • Realme • Infinix</li><li>Accessories • Covers &amp; More</li></ul>
+        <ul><li>Apple • Samsung • Google • OnePlus</li><li>Vivo • Oppo • Realme • Redmi • Infinix</li><li>Motorola • Nothing • Tecno • Nokia • Lava • Ai+</li><li>Accessories • Covers &amp; More</li></ul>
       </div>
       <div>
         <h3 style="font-size:17px">Quick Links</h3>
         <ul>
-          <li><a href="#latest">Latest Smartphones</a></li>
+          <li><a href="#latest">Stock Models</a></li>
           <li><a href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener">⭐ Loyalty Points Check</a></li>
           <li><a href="https://mobileworldchheharta.github.io/scratch-coupon/" target="_blank" rel="noopener">Scratch &amp; Win</a></li>
           <li><a href="https://mobileworldchheharta.github.io/spin-wheel/" target="_blank" rel="noopener">Spin &amp; Win</a></li>
@@ -563,50 +566,157 @@ var BRANDS = {
   vivo:{label:'Vivo',grad:'linear-gradient(160deg,#38BDF8,#0B4FD6)',bg:'#E8F5FF',short:'vivo'},
   oppo:{label:'Oppo',grad:'linear-gradient(160deg,#34D399,#065F46)',bg:'#E6F7EF',short:'oppo'},
   realme:{label:'Realme',grad:'linear-gradient(160deg,#FACC15,#D97706)',bg:'#FFF8D6',short:'realme'},
+  redmi:{label:'Redmi',grad:'linear-gradient(160deg,#F97316,#C2410C)',bg:'#FFF1E6',short:'Redmi'},
   oneplus:{label:'OnePlus',grad:'linear-gradient(160deg,#EF4444,#991B1B)',bg:'#FDECEC',short:'OnePlus'},
-  infinix:{label:'Infinix',grad:'linear-gradient(160deg,#22C55E,#065F46)',bg:'#E6F7EC',short:'Infinix'}
+  infinix:{label:'Infinix',grad:'linear-gradient(160deg,#22C55E,#065F46)',bg:'#E6F7EC',short:'Infinix'},
+  motorola:{label:'Motorola',grad:'linear-gradient(160deg,#2DD4BF,#0E5A6D)',bg:'#E6F7F5',short:'moto'},
+  nothing:{label:'Nothing',grad:'linear-gradient(160deg,#3A3A3A,#000)',bg:'#F0F0F2',short:'Nothing'},
+  google:{label:'Google',grad:'linear-gradient(160deg,#4285F4,#1A3A6B)',bg:'#EAF1FE',short:'Pixel'},
+  tecno:{label:'Tecno',grad:'linear-gradient(160deg,#EA580C,#7C2D12)',bg:'#FDF0E6',short:'Tecno'},
+  nokia:{label:'Nokia / HMD',grad:'linear-gradient(160deg,#3B82F6,#1E3A8A)',bg:'#EAF1FE',short:'Nokia'},
+  lava:{label:'Lava',grad:'linear-gradient(160deg,#DC2626,#9A3412)',bg:'#FDECEC',short:'Lava'},
+  aiplus:{label:'Ai+',grad:'linear-gradient(160deg,#A78BFA,#6D28D9)',bg:'#F1EAFE',short:'Ai+'}
 };
 var PRODUCTS = [
-  {b:'apple',n:'iPhone 17 Pro Max',s:'256GB • 512GB • 1TB',k:'Sabse powerful iPhone — Pro camera, titanium design',g:1,t:5,nw:1},
-  {b:'apple',n:'iPhone 17 Pro',s:'256GB • 512GB',k:'Pro performance aur zabardast camera system',g:1,t:5,nw:1},
-  {b:'apple',n:'iPhone 17',s:'128GB • 256GB • 512GB',k:'Latest iPhone — smooth, tez aur premium',g:1,t:5,nw:1},
-  {b:'apple',n:'iPhone 17 Air',s:'256GB • 512GB',k:'Sabse patla iPhone — halka aur stylish',g:1,t:5,nw:1},
-  {b:'apple',n:'iPhone 16',s:'128GB • 256GB • 512GB',k:'Camera Control aur Apple Intelligence ready',g:1,t:5},
-  {b:'apple',n:'iPhone 16e',s:'128GB • 256GB',k:'iPhone ka bharosa, zyada aasan daam par',g:1,t:4},
-  {b:'samsung',n:'Samsung Galaxy S25 Ultra 5G',s:'12GB RAM • 256GB / 512GB',k:'Galaxy AI, S-Pen aur 200MP camera',g:1,t:5,nw:1},
-  {b:'samsung',n:'Samsung Galaxy S25 5G',s:'12GB RAM • 128GB / 256GB',k:'Flagship performance, compact design',g:1,t:5},
-  {b:'samsung',n:'Samsung Galaxy A56 5G',s:'8GB RAM • 128GB / 256GB',k:'Premium A-series — camera aur display best',g:1,t:4},
-  {b:'samsung',n:'Samsung Galaxy A36 5G',s:'8GB RAM • 128GB / 256GB',k:'5G speed ke saath Samsung ka bharosa',g:1,t:4},
-  {b:'samsung',n:'Samsung Galaxy A26 5G',s:'6GB / 8GB RAM • 128GB',k:'Budget me 5G aur lambi software support',g:1,t:3},
-  {b:'samsung',n:'Samsung Galaxy F16 5G',s:'4GB / 6GB RAM • 128GB',k:'Badi battery, parivar ke liye best value',g:1,t:2},
-  {b:'vivo',n:'Vivo V50 5G',s:'8GB RAM • 128GB / 256GB',k:'ZEISS camera — portrait ke liye sabse best',g:1,t:4,nw:1},
-  {b:'vivo',n:'Vivo V50e 5G',s:'8GB RAM • 128GB / 256GB',k:'Slim design aur shandaar selfie camera',g:1,t:4},
-  {b:'vivo',n:'Vivo T4 5G',s:'8GB RAM • 128GB / 256GB',k:'Performance series — gaming ke liye tez',g:1,t:3},
-  {b:'vivo',n:'Vivo Y39 5G',s:'8GB RAM • 128GB / 256GB',k:'Badi battery ke saath 5G ki speed',g:1,t:3},
-  {b:'vivo',n:'Vivo Y29',s:'6GB / 8GB RAM • 128GB',k:'Mazboot body, roz ke kaam ke liye perfect',g:0,t:2},
-  {b:'vivo',n:'Vivo Y19',s:'4GB RAM • 64GB / 128GB',k:'Kam budget me badi screen aur battery',g:0,t:2},
-  {b:'oppo',n:'Oppo Reno 14 Pro 5G',s:'12GB RAM • 256GB / 512GB',k:'Flagship camera aur premium glass design',g:1,t:5,nw:1},
-  {b:'oppo',n:'Oppo Reno 14 5G',s:'8GB / 12GB RAM • 256GB',k:'AI camera aur tez charging ka combo',g:1,t:4,nw:1},
-  {b:'oppo',n:'Oppo F29 5G',s:'8GB RAM • 128GB / 256GB',k:'Mazboot body, lambi battery life',g:1,t:3},
-  {b:'oppo',n:'Oppo A5 5G',s:'6GB / 8GB RAM • 128GB',k:'Budget 5G — style ke saath speed',g:1,t:2},
-  {b:'oppo',n:'Oppo A3',s:'6GB RAM • 128GB',k:'Fast charging aur badi display',g:0,t:2},
-  {b:'realme',n:'Realme 15 Pro 5G',s:'8GB / 12GB RAM • 128GB / 256GB',k:'AI camera aur 120Hz smooth display',g:1,t:4,nw:1},
-  {b:'realme',n:'Realme 15 5G',s:'8GB RAM • 128GB / 256GB',k:'Tez processor, students ki pehli pasand',g:1,t:3},
-  {b:'realme',n:'Realme P3 5G',s:'6GB / 8GB RAM • 128GB',k:'Gaming performance budget 5G me',g:1,t:3},
-  {b:'realme',n:'Realme Narzo 80 5G',s:'6GB RAM • 128GB',k:'Narzo speed — kam daam, zyada power',g:1,t:2},
-  {b:'realme',n:'Realme C75',s:'6GB / 8GB RAM • 128GB',k:'Badi battery aur mazboot design',g:0,t:2},
-  {b:'oneplus',n:'OnePlus 13 5G',s:'12GB / 16GB RAM • 256GB / 512GB',k:'Flagship speed — Hasselblad camera',g:1,t:5},
-  {b:'oneplus',n:'OnePlus 13R 5G',s:'12GB RAM • 256GB',k:'Flagship performance, samajhdari wala daam',g:1,t:5},
-  {b:'oneplus',n:'OnePlus Nord 5 5G',s:'8GB / 12GB RAM • 256GB',k:'Nord ka sabse tez avatar',g:1,t:4,nw:1},
-  {b:'oneplus',n:'OnePlus Nord CE5 5G',s:'8GB RAM • 128GB / 256GB',k:'Smooth OxygenOS, saaf experience',g:1,t:3},
-  {b:'oneplus',n:'OnePlus Nord CE4 Lite 5G',s:'8GB RAM • 128GB / 256GB',k:'Lite daam me OnePlus ka smooth feel',g:1,t:3},
-  {b:'infinix',n:'Infinix Note 50 Pro',s:'8GB RAM • 256GB',k:'Fast charging aur badi AMOLED display',g:0,t:3},
-  {b:'infinix',n:'Infinix Note 50',s:'8GB RAM • 128GB / 256GB',k:'Note series ki best value deal',g:0,t:3},
-  {b:'infinix',n:'Infinix Hot 60 5G',s:'6GB RAM • 128GB',k:'Sabse aasan daam par 5G speed',g:1,t:2,nw:1},
-  {b:'infinix',n:'Infinix Hot 60i',s:'4GB / 6GB RAM • 128GB',k:'Badi screen, lambi battery, kam daam',g:0,t:1},
-  {b:'infinix',n:'Infinix Smart 10',s:'4GB RAM • 64GB / 128GB',k:'Pehla smartphone — sabse kam budget',g:0,t:1}
+  {b:'aiplus',n:'Ai+ 2 4G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Ai+ 2 4G 4/64'},
+  {b:'aiplus',n:'Ai+ 2 4G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Ai+ 2 4G 6/128'},
+  {b:'aiplus',n:'Ai+ Nova 2 5G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Ai+ Nova 2 5G 4/64'},
+  {b:'aiplus',n:'Ai+ Nova 2 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Ai+ Nova 2 5G 6/128'},
+  {b:'apple',n:'iPhone 13',s:'128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'iPhone 13 128GB'},
+  {b:'apple',n:'iPhone 15',s:'128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'iPhone 15 128GB'},
+  {b:'apple',n:'iPhone 15 Pro',s:'128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'iPhone 15 Pro 128GB'},
+  {b:'apple',n:'iPhone 16',s:'128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'iPhone 16 128GB'},
+  {b:'apple',n:'iPhone 17',s:'256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'iPhone 17 256GB'},
+  {b:'apple',n:'iPhone 17 Pro',s:'256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'iPhone 17 Pro 256GB'},
+  {b:'google',n:'Google Pixel 10',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Google Pixel 10 8/256'},
+  {b:'nokia',n:'HMD Vibe 2 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'HMD Vibe 2 5G 4/128'},
+  {b:'nokia',n:'HMD 100 DS',s:'Variant dukaan par confirm karein',k:'Keypad phone — calling aur roz ke basic kaam ke liye',g:0,cat:'keypad',full:'HMD 100 DS'},
+  {b:'nokia',n:'Nokia 105 SS',s:'Variant dukaan par confirm karein',k:'Keypad phone — calling aur roz ke basic kaam ke liye',g:0,cat:'keypad',full:'Nokia 105 SS'},
+  {b:'nokia',n:'Nokia 235 4G',s:'Variant dukaan par confirm karein',k:'Keypad phone — calling aur roz ke basic kaam ke liye',g:0,cat:'keypad',full:'Nokia 235 4G'},
+  {b:'lava',n:'Evo Bolt 4G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Evo Bolt 4G 6/128'},
+  {b:'lava',n:'Itel A100 Pro',s:'3GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,dl:'Itel',full:'Itel A100 Pro 3/64'},
+  {b:'lava',n:'Lava N4 Lite',s:'3GB RAM • 32GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Lava N4 Lite 3/32'},
+  {b:'lava',n:'Lava Shark 2 5G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Lava Shark 2 5G 4/64'},
+  {b:'lava',n:'Lava Virat V1 5G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Lava Virat V1 5G 4/64'},
+  {b:'lava',n:'I Kall K2 Mini',s:'Variant dukaan par confirm karein',k:'Keypad phone — calling aur roz ke basic kaam ke liye',g:0,cat:'keypad',dl:'I Kall',full:'I Kall K2 Mini'},
+  {b:'tecno',n:'Evo Bolt 4G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,dl:'Tecno',full:'Evo Bolt 4G 4/64'},
+  {b:'tecno',n:'Tecno Pop X 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Tecno Pop X 5G 6/128'},
+  {b:'tecno',n:'Tecno Pova 8 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Tecno Pova 8 5G 6/128'},
+  {b:'tecno',n:'Tecno Spark 50',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Tecno Spark 50 6/128'},
+  {b:'tecno',n:'Tecno Spark Go',s:'3GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Tecno Spark Go 3/64'},
+  {b:'tecno',n:'Tecno Spark Go 3',s:'Variant dukaan par confirm karein',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Tecno Spark Go 3'},
+  {b:'infinix',n:'Infinix GT 30',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Infinix GT 30 8/128'},
+  {b:'infinix',n:'Infinix Hot 60 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Infinix Hot 60 5G 6/128'},
+  {b:'infinix',n:'Infinix Hot 60i 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Infinix Hot 60i 5G 4/128'},
+  {b:'infinix',n:'Infinix Hot 70 Pro',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Infinix Hot 70 Pro 6/128'},
+  {b:'infinix',n:'Infinix Note 60 Pro',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Infinix Note 60 Pro 8/256'},
+  {b:'infinix',n:'Infinix Note Edge',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Infinix Note Edge 6/128'},
+  {b:'infinix',n:'Infinix Note Edge',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Infinix Note Edge 8/128'},
+  {b:'infinix',n:'Infinix Note Edge',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Infinix Note Edge 8/256'},
+  {b:'infinix',n:'Infinix Smart 20 4G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Infinix Smart 20 4G 4/128'},
+  {b:'infinix',n:'Infinix Smart 20 4G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Infinix Smart 20 4G 4/64'},
+  {b:'infinix',n:'Infinix Smart 20 HD',s:'3GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Infinix Smart 20 HD 3/64'},
+  {b:'motorola',n:'Moto Edge 60 Fusion',s:'12GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto Edge 60 Fusion 12/256'},
+  {b:'motorola',n:'Moto Edge 60 Pro',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto Edge 60 Pro 8/256'},
+  {b:'motorola',n:'Moto Edge 60 Pro',s:'12GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto Edge 60 Pro 12/256'},
+  {b:'motorola',n:'Moto Edge 70 Fusion',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto Edge 70 Fusion 8/128'},
+  {b:'motorola',n:'Moto Edge 70 Fusion',s:'12GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto Edge 70 Fusion 12/256'},
+  {b:'motorola',n:'Moto Edge 70 Fusion',s:'12GB RAM • 512GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto Edge 70 Fusion 12/512'},
+  {b:'motorola',n:'Moto Edge 70 Pro',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto Edge 70 Pro 8/256'},
+  {b:'motorola',n:'Moto Edge 70 Pro Plus',s:'12GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto Edge 70 Pro Plus 12/256'},
+  {b:'motorola',n:'Moto G Max 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Moto G Max 5G 6/128'},
+  {b:'motorola',n:'Moto G06 Power',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto G06 Power 4/64'},
+  {b:'motorola',n:'Moto G37 5G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Moto G37 5G 4/64'},
+  {b:'motorola',n:'Moto G37 Power',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto G37 Power 4/64'},
+  {b:'motorola',n:'Moto G37 Power',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto G37 Power 4/128'},
+  {b:'motorola',n:'Moto G37 Power',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto G37 Power 8/128'},
+  {b:'motorola',n:'Moto G57',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto G57 8/128'},
+  {b:'motorola',n:'Motorola G67',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Motorola G67 8/128'},
+  {b:'motorola',n:'Moto G67 Power',s:'12GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Moto G67 Power 12/256'},
+  {b:'motorola',n:'Moto G77 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Moto G77 5G 4/128'},
+  {b:'motorola',n:'Moto G77 5G',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Moto G77 5G 8/128'},
+  {b:'nothing',n:'Nothing Phone 3a Lite',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Nothing Phone 3a Lite 8/128'},
+  {b:'nothing',n:'Nothing Phone 4b',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Nothing Phone 4b 8/128'},
+  {b:'oneplus',n:'OnePlus N6 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'OnePlus N6 5G 6/128'},
+  {b:'oneplus',n:'OnePlus N6X 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'OnePlus N6X 5G 4/128'},
+  {b:'oppo',n:'Oppo A6 Pro',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Oppo A6 Pro 8/128'},
+  {b:'oppo',n:'Oppo A6s',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Oppo A6s 4/128'},
+  {b:'oppo',n:'Oppo A6s',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Oppo A6s 6/128'},
+  {b:'oppo',n:'Oppo A6x',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Oppo A6x 4/128'},
+  {b:'oppo',n:'Oppo A6x',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Oppo A6x 6/128'},
+  {b:'oppo',n:'Oppo F35 Pro 5G',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Oppo F35 Pro 5G 8/256'},
+  {b:'oppo',n:'Oppo K14x 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Oppo K14x 5G 6/128'},
+  {b:'redmi',n:'Poco C81 4G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,dl:'Poco',full:'Poco C81 4G 4/64'},
+  {b:'redmi',n:'Poco C85',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,dl:'Poco',full:'Poco C85 4/128'},
+  {b:'redmi',n:'Poco C85',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,dl:'Poco',full:'Poco C85 6/128'},
+  {b:'redmi',n:'Poco C85x',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,dl:'Poco',full:'Poco C85x 4/64'},
+  {b:'redmi',n:'Poco M8x',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,dl:'Poco',full:'Poco M8x 6/128'},
+  {b:'redmi',n:'Redmi 15 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 15 5G 6/128'},
+  {b:'redmi',n:'Redmi 15 5G',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 15 5G 8/128'},
+  {b:'redmi',n:'Redmi 15 5G',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 15 5G 8/256'},
+  {b:'redmi',n:'Redmi 15A 5G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 15A 5G 4/64'},
+  {b:'redmi',n:'Redmi 15A 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 15A 5G 4/128'},
+  {b:'redmi',n:'Redmi 15A 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 15A 5G 6/128'},
+  {b:'redmi',n:'Redmi 15C 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 15C 5G 4/128'},
+  {b:'redmi',n:'Redmi 15C 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 15C 5G 6/128'},
+  {b:'redmi',n:'Redmi 17 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 17 5G 6/128'},
+  {b:'redmi',n:'Redmi 17 5G',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 17 5G 8/128'},
+  {b:'redmi',n:'Redmi 17C 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 17C 5G 4/128'},
+  {b:'redmi',n:'Redmi 17C 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi 17C 5G 6/128'},
+  {b:'redmi',n:'Redmi A7 4G',s:'3GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Redmi A7 4G 3/64'},
+  {b:'redmi',n:'Redmi A7 Pro 4G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Redmi A7 Pro 4G 4/64'},
+  {b:'redmi',n:'Redmi A7 Pro 5G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi A7 Pro 5G 4/64'},
+  {b:'redmi',n:'Redmi A7 Pro 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi A7 Pro 5G 4/128'},
+  {b:'redmi',n:'Redmi Note 15',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Redmi Note 15 8/128'},
+  {b:'redmi',n:'Redmi Note 15',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Redmi Note 15 8/256'},
+  {b:'redmi',n:'Redmi Note 15 Pro+',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Redmi Note 15 Pro+ 8/256'},
+  {b:'redmi',n:'Redmi Note 15 SE',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Redmi Note 15 SE 6/128'},
+  {b:'redmi',n:'Redmi Note 17 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi Note 17 5G 6/128'},
+  {b:'redmi',n:'Redmi Note 17 5G',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Redmi Note 17 5G 8/128'},
+  {b:'realme',n:'Realme C71',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Realme C71 4/64'},
+  {b:'realme',n:'Realme C83 5G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Realme C83 5G 4/64'},
+  {b:'realme',n:'Realme C83 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Realme C83 5G 4/128'},
+  {b:'realme',n:'Realme C83 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Realme C83 5G 6/128'},
+  {b:'realme',n:'Realme Narzo 100 Lite 5G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Realme Narzo 100 Lite 5G 4/64'},
+  {b:'realme',n:'Realme Narzo 100 Lite 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Realme Narzo 100 Lite 5G 4/128'},
+  {b:'realme',n:'Realme Narzo 80 Lite',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Realme Narzo 80 Lite 6/128'},
+  {b:'samsung',n:'Samsung Galaxy A06',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Samsung Galaxy A06 4/64'},
+  {b:'samsung',n:'Samsung Galaxy A07 4G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Samsung Galaxy A07 4G 4/64'},
+  {b:'samsung',n:'Samsung Galaxy A07 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Samsung Galaxy A07 5G 4/128'},
+  {b:'samsung',n:'Samsung Galaxy A07 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Samsung Galaxy A07 5G 6/128'},
+  {b:'samsung',n:'Samsung Galaxy A17 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Samsung Galaxy A17 5G 6/128'},
+  {b:'samsung',n:'Samsung Galaxy A27 5G',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Samsung Galaxy A27 5G 8/256'},
+  {b:'samsung',n:'Samsung Galaxy A36',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Samsung Galaxy A36 8/256'},
+  {b:'samsung',n:'Samsung Galaxy A37 5G',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Samsung Galaxy A37 5G 8/128'},
+  {b:'samsung',n:'Samsung Galaxy A57 5G',s:'12GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Samsung Galaxy A57 5G 12/256'},
+  {b:'samsung',n:'Samsung Galaxy F06',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Samsung Galaxy F06 4/128'},
+  {b:'samsung',n:'Samsung Galaxy F17',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Samsung Galaxy F17 4/128'},
+  {b:'samsung',n:'Samsung Galaxy F17',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Samsung Galaxy F17 6/128'},
+  {b:'samsung',n:'Samsung Galaxy F17',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Samsung Galaxy F17 8/128'},
+  {b:'samsung',n:'Samsung Galaxy F70e',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Samsung Galaxy F70e 4/128'},
+  {b:'samsung',n:'Samsung Galaxy M06 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Samsung Galaxy M06 5G 4/128'},
+  {b:'samsung',n:'Samsung Galaxy M47 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Samsung Galaxy M47 5G 6/128'},
+  {b:'vivo',n:'Vivo S2 5G',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Vivo S2 5G 8/128'},
+  {b:'vivo',n:'Vivo S2 5G',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Vivo S2 5G 8/256'},
+  {b:'vivo',n:'Vivo T4 Lite',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Vivo T4 Lite 6/128'},
+  {b:'vivo',n:'Vivo T4 Lite',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Vivo T4 Lite 8/256'},
+  {b:'vivo',n:'Vivo T5 Lite 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Vivo T5 Lite 5G 4/128'},
+  {b:'vivo',n:'Vivo T5 Lite 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Vivo T5 Lite 5G 6/128'},
+  {b:'vivo',n:'Vivo T5e 4G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Vivo T5e 4G 4/64'},
+  {b:'vivo',n:'Vivo V70 5G',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Vivo V70 5G 8/256'},
+  {b:'vivo',n:'Vivo Y05',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Vivo Y05 4/64'},
+  {b:'vivo',n:'Vivo Y11 5G',s:'4GB RAM • 64GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Vivo Y11 5G 4/64'},
+  {b:'vivo',n:'Vivo Y11 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Vivo Y11 5G 4/128'},
+  {b:'vivo',n:'Vivo Y21 5G',s:'4GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Vivo Y21 5G 4/128'},
+  {b:'vivo',n:'Vivo Y21 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Vivo Y21 5G 6/128'},
+  {b:'vivo',n:'Vivo Y21 5G',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Vivo Y21 5G 8/128'},
+  {b:'vivo',n:'Vivo Y31T 5G',s:'6GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:1,full:'Vivo Y31T 5G 6/128'},
+  {b:'vivo',n:'Vivo Y400',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Vivo Y400 8/128'},
+  {b:'vivo',n:'Vivo Y400',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Vivo Y400 8/256'},
+  {b:'vivo',n:'Vivo Y51 Pro',s:'8GB RAM • 128GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Vivo Y51 Pro 8/128'},
+  {b:'vivo',n:'Vivo Y51 Pro',s:'8GB RAM • 256GB Storage',k:'Dukaan ke stock me uplabdh — full specs WhatsApp par puchein',g:0,full:'Vivo Y51 Pro 8/256'}
 ];
-var state = {brand:'all', budget:0, query:''};
+var state = {brand:'all', query:''};
 function waLink(model){
   var msg = 'Namaste Mobile World, mujhe ' + model + ' ka best price aur stock batao';
   return 'https://wa.me/919592717735?text=' + encodeURIComponent(msg);
@@ -615,28 +725,27 @@ function cardHTML(p){
   var B = BRANDS[p.b];
   return '<article class="prod">'
     + '<div class="prod-visual" style="background:' + B.bg + '">'
-    + (p.g ? '<span class="tag5g">5G</span>' : '')
+    + (p.cat === 'keypad' ? '<span class="tag-key">KEYPAD</span>' : (p.g ? '<span class="tag5g">5G</span>' : ''))
     + (p.nw ? '<span class="tag-new">NEW</span>' : '')
     + '<span class="halo"></span>'
     + '<div class="mini-phone" style="background:' + B.grad + '"><span class="cam"><i></i><i></i></span><span class="bl">' + B.short + '</span></div>'
     + '</div>'
     + '<div class="prod-body">'
-    + '<span class="pb">' + B.label + '</span>'
+    + '<span class="pb">' + (p.dl || B.label) + '</span>'
     + '<h3>' + p.n + '</h3>'
     + '<div class="prod-specs">' + p.s + '</div>'
     + '<p class="prod-key">' + p.k + '</p>'
     + '<div class="price-row"><b>Best Price</b><span>Daam ke liye WhatsApp par puchein — EMI bhi uplabdh</span></div>'
-    + '<a class="btn btn-wa" target="_blank" rel="noopener" href="' + waLink(p.n) + '">💬 Is Phone Ka Daam Pucho</a>'
+    + '<a class="btn btn-wa" target="_blank" rel="noopener" href="' + waLink(p.full || p.n) + '">💬 Is Phone Ka Daam Pucho</a>'
     + '</div></article>';
 }
 function matches(p){
-  if(state.brand !== 'all' && p.b !== state.brand) return false;
-  if(state.budget){
-    if(state.budget === 5){ if(p.t !== 5) return false; }
-    else if(p.t > state.budget) return false;
+  if(state.brand !== 'all'){
+    if(state.brand === 'keypad'){ if(p.cat !== 'keypad') return false; }
+    else if(p.b !== state.brand) return false;
   }
   if(state.query){
-    var hay = (BRANDS[p.b].label + ' ' + p.n + ' ' + p.s).toLowerCase();
+    var hay = ((p.dl || BRANDS[p.b].label) + ' ' + p.n + ' ' + p.s).toLowerCase();
     if(hay.indexOf(state.query) === -1) return false;
   }
   return true;
@@ -644,7 +753,7 @@ function matches(p){
 function render(){
   var list = PRODUCTS.filter(matches);
   document.getElementById('catalogGrid').innerHTML = list.map(cardHTML).join('');
-  document.getElementById('catalogCount').textContent = list.length + ' phones dikh rahe hain';
+  document.getElementById('catalogCount').textContent = list.length + ' models dikh rahe hain';
   document.getElementById('catalogEmpty').classList.toggle('hidden', list.length > 0);
   var five = PRODUCTS.filter(function(p){ return p.g === 1; });
   document.getElementById('fivegGrid').innerHTML = five.map(cardHTML).join('');
@@ -666,14 +775,6 @@ document.getElementById('clearBrand').addEventListener('click', function(){
   document.getElementById('clearBrand').classList.add('hidden');
   render();
 });
-document.querySelectorAll('.budget-card').forEach(function(card){
-  card.addEventListener('click', function(){
-    var v = parseInt(card.getAttribute('data-budget'), 10);
-    state.budget = (state.budget === v) ? 0 : v;
-    document.querySelectorAll('.budget-card').forEach(function(c){ c.classList.toggle('active', parseInt(c.getAttribute('data-budget'),10) === state.budget); });
-    render(); scrollToCatalog();
-  });
-});
 var searchInput = document.getElementById('searchInput');
 searchInput.addEventListener('input', function(){
   state.query = searchInput.value.trim().toLowerCase();
@@ -681,9 +782,9 @@ searchInput.addEventListener('input', function(){
 });
 document.getElementById('searchForm').addEventListener('submit', function(e){ e.preventDefault(); render(); scrollToCatalog(); });
 document.getElementById('resetFilters').addEventListener('click', function(){
-  state = {brand:'all', budget:0, query:''};
+  state = {brand:'all', query:''};
   searchInput.value = '';
-  document.querySelectorAll('.brand-tile,.budget-card').forEach(function(t){ t.classList.remove('active'); });
+  document.querySelectorAll('.brand-tile').forEach(function(t){ t.classList.remove('active'); });
   document.getElementById('clearBrand').classList.add('hidden');
   render();
 });

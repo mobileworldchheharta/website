@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="light">
 <link rel="icon" href="data:,">
 <title>Mobile World — Chheharta, Amritsar | Latest Smartphones, Best Price, Easy EMI</title>
 <meta name="description" content="Mobile World, Pratap Bazaar Chheharta Amritsar — Apple Authorised Store. iPhone, Samsung, Vivo, Oppo, Realme, OnePlus, Infinix. Best Price, Easy EMI, Exchange Offer. Roz 11 AM – 9 PM. Call 95927 17735">
@@ -12,79 +12,80 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#FFF8EC; --surface:#FFFFFF; --surface2:#FFF3DC;
-  --ink:#221306; --muted:#6E4E22; --line:#F1DCB2;
-  --orange:#F35D00; --orange2:#FF7A1A; --orange-soft:#FFF0DB;
-  --gold:#FFB300; --gold2:#FFD23F;
-  --green:#128C4A;
-  --shadow:0 8px 24px rgba(180,83,0,.10);
-  --head-grad:linear-gradient(90deg,#E64E00,#F96302 45%,#FF8A1E);
-}
-@media (prefers-color-scheme: dark){
-  :root{
-    --bg:#150D03; --surface:#241708; --surface2:#2E1D09;
-    --ink:#FFF3DC; --muted:#D9B98A; --line:#4A320F;
-    --orange-soft:#33200A;
-    --shadow:0 8px 24px rgba(0,0,0,.45);
-  }
+  --bg:#FFFFFF; --bg2:#F7F7F8; --surface:#FFFFFF; --surface2:#FFF5F5;
+  --ink:#1A1A1E; --muted:#6B6B74; --line:#E8E8EC;
+  --red:#E4002B; --red-dark:#B80022; --red-soft:#FFF0F2;
+  --green:#128C4A; --gold:#FFB300;
+  --shadow:0 4px 18px rgba(0,0,0,.07);
+  --shadow-lg:0 10px 30px rgba(0,0,0,.10);
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;font-family:"Plus Jakarta Sans",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit}
 .wrap{max-width:1200px;margin:0 auto;padding:0 16px}
-h1,h2,h3{font-family:"Archivo",sans-serif;line-height:1.05;letter-spacing:-.01em;margin:0}
-h2{font-size:clamp(24px,4.5vw,34px);font-weight:800}
+h1,h2,h3{font-family:"Archivo",sans-serif;line-height:1.08;letter-spacing:-.01em;margin:0}
+h2{font-size:clamp(24px,4.5vw,32px);font-weight:800}
 p{margin:0}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 18px;border-radius:10px;font-weight:800;font-size:15px;text-decoration:none;border:0;cursor:pointer;font-family:inherit;transition:.15s}
 .btn:active{transform:scale(.98)}
 .btn-wa{background:var(--green);color:#fff}
-.btn-dark{background:var(--ink);color:var(--bg)}
-.btn-gold{background:linear-gradient(135deg,var(--gold2),var(--orange2));color:#2B1500}
-.btn-white{background:#fff;color:#B34700}
+.btn-red{background:var(--red);color:#fff}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-gold{background:linear-gradient(135deg,#FFD23F,#FFB300);color:#2B1500}
 .btn-outline{background:transparent;border:1.5px solid var(--line);color:var(--ink)}
 .hidden{display:none !important}
-.strip{background:#221306;color:#FFE9C4;font-size:13px;font-weight:700}
-.strip-in{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 0;flex-wrap:wrap}
-.strip a{color:#FFD23F;text-decoration:none;white-space:nowrap}
-@media(max-width:640px){.strip .mid{display:none}.strip-in{justify-content:center}}
-header.site{position:sticky;top:0;z-index:50;background:var(--head-grad);box-shadow:0 4px 18px rgba(180,60,0,.25)}
-.head-in{display:flex;align-items:center;gap:14px;padding:12px 0;flex-wrap:wrap}
-.logo{text-decoration:none;color:#fff;line-height:1;flex-shrink:0}
-.logo b{font-family:"Archivo";font-weight:900;font-size:clamp(21px,4vw,27px);display:block}
-.logo span{font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;opacity:.92}
-.search{flex:1;min-width:200px;display:flex;background:#fff;border-radius:999px;overflow:hidden}
-.search input{flex:1;border:0;outline:none;padding:13px 18px;font:inherit;font-size:15px;font-weight:600;color:#221306;background:#fff;min-width:0}
-.search button{border:0;background:#221306;color:#fff;font:inherit;font-weight:800;padding:0 20px;cursor:pointer;font-size:15px}
-.head-btns{display:flex;gap:8px}
-.head-btn{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.16);border:1.5px solid rgba(255,255,255,.55);color:#fff;text-decoration:none;font-weight:800;font-size:14px;padding:10px 14px;border-radius:999px;min-height:46px}
-.head-btn.solid{background:#fff;color:#C24E00;border-color:#fff}
-@media(max-width:640px){.head-in{gap:10px}.search{order:3;flex-basis:100%}.head-btns{margin-left:auto}.head-btn{padding:9px 11px;font-size:13px}}
-.catnav{background:var(--surface);border-bottom:1px solid var(--line)}
-.catnav-in{display:flex;gap:4px;flex-wrap:wrap;padding:8px 0}
-.catnav a{text-decoration:none;font-weight:700;font-size:14px;padding:8px 12px;border-radius:8px;color:var(--ink)}
-.catnav a:hover{background:var(--orange-soft)}
-.banner{margin:18px 0 0;border-radius:18px;overflow:hidden;position:relative;background:radial-gradient(700px 320px at 88% 0%,rgba(255,210,63,.5),transparent 55%),linear-gradient(120deg,#2B1500 0%,#7A2E00 55%,#F35D00 130%);color:#fff;padding:clamp(26px,5vw,52px)}
-.banner .tag{display:inline-block;background:var(--gold);color:#2B1500;font-weight:800;font-size:13px;padding:6px 12px;border-radius:999px;letter-spacing:.04em}
-.banner h1{font-size:clamp(32px,6.5vw,58px);font-weight:900;margin:16px 0 10px;max-width:700px}
-.banner h1 em{font-style:normal;color:var(--gold2)}
-.banner p{font-size:clamp(16px,2.6vw,20px);font-weight:600;color:#FFE9C4;max-width:620px}
-.banner-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
-.banner-points{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
-.banner-points span{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);padding:7px 12px;border-radius:999px;font-size:13.5px;font-weight:700}
-section{padding:34px 0 6px}
-.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:18px;flex-wrap:wrap}
-.sec-head p{color:var(--muted);font-weight:600;margin-top:6px;font-size:15.5px}
-.sec-count{font-weight:800;font-size:14px;color:var(--orange);white-space:nowrap}
-.brand-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
-@media(min-width:760px){.brand-grid{grid-template-columns:repeat(7,1fr)}}
-@media(max-width:380px){.brand-grid{grid-template-columns:repeat(3,1fr)}}
-.brand-tile{background:var(--surface);border:1.5px solid var(--line);border-radius:16px;padding:16px 6px 13px;text-align:center;cursor:pointer;font-family:inherit;color:var(--ink);transition:.15s;width:100%}
-.brand-tile:active{transform:scale(.97)}
-.brand-tile .circ{width:62px;height:62px;margin:0 auto 9px;border-radius:50%;display:grid;place-items:center;font-family:"Archivo";font-weight:900;font-size:21px;color:#fff;box-shadow:0 0 0 2px var(--line)}
-.brand-tile b{display:block;font-size:14.5px}
-.brand-tile small{color:var(--muted);font-weight:700;font-size:11.5px}
-.brand-tile.active{border-color:var(--orange);background:var(--orange-soft);box-shadow:var(--shadow)}
+/* ===== THIN HEADER (Sangeetha style) ===== */
+header.site{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+.head-in{display:flex;align-items:center;gap:10px;padding:9px 0}
+.logo{text-decoration:none;line-height:1;flex-shrink:0}
+.logo b{font-family:"Archivo";font-weight:900;font-size:clamp(19px,4vw,24px);color:var(--ink);display:block}
+.logo b i{font-style:normal;color:var(--red)}
+.logo span{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.head-icons{margin-left:auto;display:flex;gap:8px;align-items:center}
+.icon-btn{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;text-decoration:none;font-size:19px;border:1.5px solid var(--line);background:#fff}
+.icon-btn.wa{background:var(--green);border-color:var(--green);color:#fff}
+.icon-btn.call{background:var(--red);border-color:var(--red);color:#fff}
+
+/* ===== HERO SLIDESHOW ===== */
+.hero{position:relative;background:#0E0E12;overflow:hidden}
+.hero-slide{display:none;padding:34px 20px 46px;color:#fff;text-align:center;position:relative}
+.hero-slide.on{display:block;animation:heroFade .5s ease}
+@keyframes heroFade{from{opacity:.3}to{opacity:1}}
+@media(max-width:640px){
+  .hero-slide{padding:22px 16px 40px}
+  .hero-phone{width:92px !important;height:176px !important;margin-top:14px !important;border-radius:19px !important}
+  .hero-cta{margin-top:12px !important}
+}
+.hero-slide .hs-kicker{font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#FF8FA3}
+.hero-slide h1{font-size:clamp(30px,7vw,52px);font-weight:900;margin:10px auto 6px;max-width:640px}
+.hero-slide p{color:#C9C9D2;font-weight:600;font-size:clamp(14px,2.6vw,17px);max-width:520px;margin:0 auto}
+.hero-phone{margin:22px auto 4px;width:118px;height:228px;border-radius:24px;box-shadow:0 24px 44px rgba(0,0,0,.5);display:flex;flex-direction:column;align-items:center;padding-top:14px;color:#fff;position:relative}
+.hero-phone:before{content:"";width:38px;height:6px;border-radius:99px;background:rgba(0,0,0,.5)}
+.hero-phone .cam{margin-top:14px;display:grid;gap:6px}
+.hero-phone .cam i{width:16px;height:16px;border-radius:50%;background:rgba(0,0,0,.5);border:2px solid rgba(255,255,255,.4);display:block}
+.hero-phone .bl{margin-top:auto;margin-bottom:14px;font-family:"Archivo";font-weight:900;font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.hero-cta{display:inline-flex;margin-top:18px;background:var(--red);color:#fff;text-decoration:none;font-weight:800;padding:13px 22px;border-radius:999px;min-height:50px;align-items:center;font-size:15px}
+.hero-dots{position:absolute;left:0;right:0;bottom:14px;display:flex;justify-content:center;gap:7px}
+.hero-dots button{width:9px;height:9px;border-radius:99px;border:0;background:rgba(255,255,255,.4);cursor:pointer;padding:0;transition:.2s}
+.hero-dots button.on{width:26px;background:#fff}
+.hero-arrow{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.16);color:#fff;font-size:20px;cursor:pointer;display:grid;place-items:center;z-index:3}
+.hero-arrow.prev{left:10px}.hero-arrow.next{right:10px}
+@media(max-width:640px){.hero-arrow{display:none}}
+/* ===== ROUND BRANDS ===== */
+section{padding:30px 0 4px}
+.sec-head{margin-bottom:16px}
+.sec-head p{color:var(--muted);font-weight:600;margin-top:5px;font-size:15px}
+.brand-row{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 12px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.brand-row::-webkit-scrollbar{display:none}
+@media(min-width:900px){.brand-row{justify-content:space-between;overflow:visible}}
+@media(max-width:899px){.brand-row{flex-wrap:wrap;overflow:visible;justify-content:center;row-gap:16px}}
+.brand-tile{background:none;border:0;cursor:pointer;font-family:inherit;color:var(--ink);text-align:center;flex:0 0 auto;width:84px;padding:0}
+.brand-tile .circ{width:72px;height:72px;margin:0 auto 8px;border-radius:50%;display:grid;place-items:center;font-family:"Archivo";font-weight:900;font-size:22px;color:#fff;border:2.5px solid transparent;transition:.15s;box-shadow:var(--shadow)}
+.brand-tile b{display:block;font-size:13.5px}
+.brand-tile small{color:var(--muted);font-weight:600;font-size:10.5px;display:block;line-height:1.3}
+.brand-tile.active .circ{border-color:var(--red);transform:scale(1.06)}
+.brand-tile.active b{color:var(--red)}
 .b-apple{background:linear-gradient(135deg,#3A3A3A,#111)}
 .b-samsung{background:linear-gradient(135deg,#0B2A6B,#2F7CFF)}
 .b-vivo{background:linear-gradient(135deg,#0B4FD6,#38BDF8)}
@@ -92,33 +93,49 @@ section{padding:34px 0 6px}
 .b-realme{background:linear-gradient(135deg,#D97706,#FACC15);color:#3A2500}
 .b-oneplus{background:linear-gradient(135deg,#B91C1C,#EF4444)}
 .b-infinix{background:linear-gradient(135deg,#065F46,#22C55E)}
-.budget-grid{display:grid;gap:12px}
-@media(min-width:640px){.budget-grid{grid-template-columns:repeat(3,1fr)}}
-@media(min-width:980px){.budget-grid{grid-template-columns:repeat(5,1fr)}}
-.budget-card{border-radius:16px;padding:18px;text-align:left;cursor:pointer;font-family:inherit;border:1.5px solid transparent;color:var(--ink);width:100%;transition:.15s}
+.brand-clear{margin-top:2px}
+/* ===== CUSTOMER PHOTOS STRIP ===== */
+.cust-strip{position:relative;overflow:hidden;border-radius:18px;background:var(--bg2);border:1px solid var(--line)}
+.cust-track{display:flex;transition:transform .55s ease}
+.cust-slide{min-width:100%;padding:10px}
+@media(min-width:700px){.cust-slide{min-width:50%}}
+@media(min-width:1024px){.cust-slide{min-width:33.333%}}
+.cust-frame{aspect-ratio:4/3;border-radius:14px;background:repeating-linear-gradient(45deg,#FFF,#FFF 14px,#FFF5F6 14px,#FFF5F6 28px);border:2px dashed #F3B7C0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:20px}
+.cust-frame .cf-ic{font-size:44px}
+.cust-frame b{font-size:16px;color:var(--red-dark)}
+.cust-frame span{color:var(--muted);font-weight:600;font-size:13.5px;max-width:280px}
+.cust-dots{display:flex;justify-content:center;gap:7px;margin-top:12px}
+.cust-dots button{width:8px;height:8px;border-radius:99px;border:0;background:#D8D8DE;cursor:pointer;padding:0}
+.cust-dots button.on{width:24px;background:var(--red)}
+/* ===== SEARCH + BUDGET + CATALOG ===== */
+.search{display:flex;background:#fff;border:1.5px solid var(--line);border-radius:999px;overflow:hidden;box-shadow:var(--shadow);margin-bottom:14px}
+.search input{flex:1;border:0;outline:none;padding:13px 18px;font:inherit;font-size:15px;font-weight:600;color:var(--ink);background:#fff;min-width:0}
+.search button{border:0;background:var(--red);color:#fff;font:inherit;font-weight:800;padding:0 20px;cursor:pointer;font-size:15px}
+.budget-grid{display:grid;gap:10px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:760px){.budget-grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1024px){.budget-grid{grid-template-columns:repeat(5,1fr)}}
+.budget-card{border-radius:14px;padding:15px;text-align:left;cursor:pointer;font-family:inherit;border:1.5px solid var(--line);background:#fff;color:var(--ink);width:100%;transition:.15s}
 .budget-card:active{transform:scale(.98)}
-.budget-card .ic{font-size:26px}
-.budget-card b{display:block;font-family:"Archivo";font-size:19px;margin:8px 0 3px}
-.budget-card span{font-size:13.5px;font-weight:600;opacity:.75}
-.budget-card.active{border-color:var(--orange);box-shadow:var(--shadow)}
-.bg1{background:#E7F6EC}.bg2{background:#FFF3D6}.bg3{background:#FDE8E8}.bg4{background:#E8EEFD}.bg5{background:#2B1500;color:#FFF3DC}
-@media(prefers-color-scheme:dark){.bg1{background:#12301C}.bg2{background:#3A2A08}.bg3{background:#3A1512}.bg4{background:#16264A}.bg5{background:#3A2005}}
+.budget-card .ic{font-size:22px}
+.budget-card b{display:block;font-family:"Archivo";font-size:16.5px;margin:6px 0 2px}
+.budget-card span{font-size:12.5px;font-weight:600;color:var(--muted)}
+.budget-card.active{border-color:var(--red);background:var(--red-soft)}
+.sec-count{font-weight:800;font-size:14px;color:var(--red);white-space:nowrap}
 .prod-grid{display:grid;gap:14px;grid-template-columns:repeat(2,1fr)}
 @media(min-width:760px){.prod-grid{grid-template-columns:repeat(3,1fr)}}
 @media(min-width:1080px){.prod-grid{grid-template-columns:repeat(4,1fr)}}
 .prod{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow)}
 .prod-visual{height:168px;display:grid;place-items:center;position:relative}
 .prod-visual .halo{position:absolute;width:128px;height:128px;border-radius:50%;background:rgba(255,255,255,.55)}
-@media(prefers-color-scheme:dark){.prod-visual .halo{background:rgba(255,255,255,.14)}}
 .mini-phone{position:relative;width:64px;height:122px;border-radius:13px;box-shadow:0 14px 22px rgba(0,0,0,.28);display:flex;flex-direction:column;align-items:center;padding-top:9px;color:#fff}
 .mini-phone:before{content:"";width:22px;height:5px;border-radius:99px;background:rgba(0,0,0,.45)}
 .mini-phone .cam{margin-top:9px;display:grid;gap:4px}
 .mini-phone .cam i{width:11px;height:11px;border-radius:50%;background:rgba(0,0,0,.5);border:2px solid rgba(255,255,255,.35);display:block}
 .mini-phone .bl{margin-top:auto;margin-bottom:9px;font-family:"Archivo";font-weight:900;font-size:10px;letter-spacing:.08em;text-transform:uppercase;opacity:.95}
 .tag5g{position:absolute;top:10px;left:10px;background:#111;color:#fff;font-size:11px;font-weight:800;padding:4px 8px;border-radius:6px;letter-spacing:.05em;z-index:2}
-.tag-new{position:absolute;top:10px;right:10px;background:var(--orange);color:#fff;font-size:11px;font-weight:800;padding:4px 8px;border-radius:6px;z-index:2}
+.tag-new{position:absolute;top:10px;right:10px;background:var(--red);color:#fff;font-size:11px;font-weight:800;padding:4px 8px;border-radius:6px;z-index:2}
 .prod-body{padding:14px;display:flex;flex-direction:column;gap:7px;flex:1}
-.prod-body .pb{font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--orange)}
+.prod-body .pb{font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--red)}
 .prod-body h3{font-size:16.5px;font-weight:800;line-height:1.2}
 .prod-specs{font-size:13px;font-weight:700;color:var(--muted)}
 .prod-key{font-size:13px;font-weight:600;color:var(--muted)}
@@ -126,228 +143,219 @@ section{padding:34px 0 6px}
 .price-row b{color:var(--green);font-size:15px;display:block}
 .price-row span{font-size:12.5px;font-weight:600;color:var(--muted)}
 .prod .btn{margin-top:10px;min-height:44px;font-size:14px;padding:10px 12px;border-radius:9px}
-.empty-msg{background:var(--surface);border:1.5px dashed var(--line);border-radius:16px;padding:26px;text-align:center;font-weight:700;color:var(--muted)}
+.empty-msg{background:#fff;border:1.5px dashed var(--line);border-radius:16px;padding:26px;text-align:center;font-weight:700;color:var(--muted)}
 .clear-btn{margin-top:12px}
-.g5-banner{border-radius:18px;background:#0B0B10;color:#fff;padding:clamp(24px,4vw,40px);position:relative;overflow:hidden;margin-top:8px}
-.g5-banner:before{content:"5G";position:absolute;right:-8px;top:-38px;font-family:"Archivo";font-weight:900;font-size:170px;color:rgba(255,255,255,.07);line-height:1}
+.g5-banner{border-radius:18px;background:#141419;color:#fff;padding:clamp(24px,4vw,38px);position:relative;overflow:hidden;margin-top:8px}
+.g5-banner:before{content:"5G";position:absolute;right:-8px;top:-38px;font-family:"Archivo";font-weight:900;font-size:170px;color:rgba(255,255,255,.06);line-height:1}
 .g5-banner h2{color:#fff;position:relative}
-.g5-banner p{color:#CFCFE0;font-weight:600;margin-top:8px;max-width:560px;position:relative}
+.g5-banner p{color:#C9C9D2;font-weight:600;margin-top:8px;max-width:560px;position:relative}
 .why-grid{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
 @media(min-width:900px){.why-grid{grid-template-columns:repeat(5,1fr)}}
-.why{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 14px;text-align:center;box-shadow:var(--shadow)}
+.why{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 14px;text-align:center;box-shadow:var(--shadow)}
 .why .ic{font-size:30px}
 .why b{display:block;margin:9px 0 4px;font-size:15.5px}
 .why span{font-size:13px;font-weight:600;color:var(--muted)}
-.loyalty{background:linear-gradient(135deg,#2B1500,#5C2A00);color:#FFF3DC;border-radius:22px;padding:26px;position:relative;overflow:hidden}
-.loyalty:after{content:"★";position:absolute;right:-10px;top:-30px;font-size:160px;color:rgba(255,179,0,.15);line-height:1}
+/* ===== LOYALTY ===== */
+.loyalty{background:#17171C;color:#F2F2F5;border-radius:22px;padding:clamp(24px,4.5vw,40px);position:relative;overflow:hidden}
+.loyalty:after{content:"★";position:absolute;right:-10px;top:-30px;font-size:160px;color:rgba(255,179,0,.13);line-height:1}
 .loyalty h2{color:#fff}
-.loyalty .sub{color:#F5D9A8;font-weight:600;margin-top:9px;max-width:640px}
-.points-grid{display:grid;gap:12px;margin:20px 0;position:relative;z-index:1}
-@media(min-width:700px){.points-grid{grid-template-columns:1fr 1fr}}
-.point-box{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:14px;padding:15px}
-.point-box b{font-size:20px;font-family:"Archivo"}
-.point-box span{display:block;color:#F5D9A8;font-weight:600;font-size:13.5px;margin-top:3px}
-.bonus-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px;position:relative;z-index:1}
-.bonus{background:#FFB300;color:#2B1500;font-weight:800;padding:8px 12px;border-radius:999px;font-size:13.5px}
-.fun-grid{display:grid;gap:14px}
-@media(min-width:760px){.fun-grid{grid-template-columns:1fr 1fr}}
-.fun-card{border-radius:20px;padding:24px;color:#fff;text-decoration:none;display:block;min-height:180px}
-.fun-card h3{font-size:26px;color:#fff}
-.fun-card p{font-weight:600;opacity:.93;margin:9px 0 16px;max-width:430px}
-.fun-card .go{display:inline-flex;background:#fff;color:#221306;font-weight:800;padding:11px 16px;border-radius:999px;min-height:44px;align-items:center}
-.fun-spin{background:linear-gradient(135deg,#F35D00,#FFB300)}
-.fun-scratch{background:linear-gradient(135deg,#7C2D12,#DB2777)}
+.loyalty .sub{color:#C9C9D2;font-weight:600;margin-top:9px;max-width:640px}
+.benefit-grid{display:grid;gap:11px;margin:22px 0;position:relative;z-index:1}
+@media(min-width:640px){.benefit-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:980px){.benefit-grid{grid-template-columns:repeat(3,1fr)}}
+.benefit{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:16px;display:flex;gap:12px;align-items:flex-start}
+.benefit .bic{font-size:26px;line-height:1.1;flex-shrink:0}
+.benefit b{display:block;font-size:16px;line-height:1.3}
+.benefit span{display:block;color:#C9C9D2;font-weight:600;font-size:13.5px;margin-top:3px;line-height:1.45}
+.benefit.hero-ben{background:linear-gradient(135deg,#FFB300,#FF8A1E);border-color:#FFD23F;color:#2B1500}
+.benefit.hero-ben span{color:#5C2E00}
+.loyalty-cta{display:flex;gap:12px;flex-wrap:wrap;position:relative;z-index:1;align-items:center}
+.loyalty-cta .btn{font-size:17px;min-height:58px;padding:15px 24px;border-radius:12px}
+.loyalty-note{position:relative;z-index:1;color:#C9C9D2;font-weight:700;font-size:14px;margin-top:14px}
+/* ===== GAMES ===== */
+.games-zone{background:var(--red-soft);border:1.5px solid #FFD3DA;border-radius:22px;padding:clamp(22px,4vw,34px);position:relative;overflow:hidden}
+.games-zone h2{color:var(--ink)}
+.games-zone .gz-sub{color:var(--muted);font-weight:700;margin-top:8px;font-size:16px;max-width:640px}
+.game-grid{display:grid;gap:16px;margin-top:22px}
+@media(min-width:760px){.game-grid{grid-template-columns:1fr 1fr}}
+.game-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px 22px;color:var(--ink);box-shadow:var(--shadow);display:flex;flex-direction:column}
+.game-card .gic{font-size:50px;line-height:1}
+.game-card h3{font-size:clamp(25px,4.5vw,32px);font-weight:900;margin:12px 0 6px}
+.game-card .gline{font-weight:800;font-size:17px;color:var(--red)}
+.game-card .gifts{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 18px}
+.game-card .gifts span{background:var(--red-soft);border:1px solid #FFD3DA;font-weight:700;font-size:12.5px;padding:6px 10px;border-radius:999px}
+.game-card .btn{margin-top:auto;font-size:17px;min-height:56px;border-radius:12px}
+.game-card p.gnote{font-size:13.5px;font-weight:600;color:var(--muted);margin-top:12px}
+/* ===== LINKS / PANELS ===== */
+.links-grid{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:760px){.links-grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1080px){.links-grid{grid-template-columns:repeat(4,1fr)}}
+.link-card{background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:18px 14px;text-decoration:none;display:flex;flex-direction:column;gap:5px;box-shadow:var(--shadow);transition:.15s;min-height:118px}
+.link-card:active{transform:scale(.98)}
+.link-card .lic{font-size:30px;line-height:1}
+.link-card b{font-size:16px;line-height:1.25}
+.link-card span{font-size:13px;font-weight:600;color:var(--muted);line-height:1.45}
+.link-card .lgo{margin-top:auto;font-weight:800;font-size:13.5px;color:var(--red)}
+.link-card.hl{background:var(--red);border-color:var(--red);color:#fff}
+.link-card.hl span{color:#FFD9DE}
+.link-card.hl .lgo{color:#fff}
 .split{display:grid;gap:14px}
 @media(min-width:860px){.split{grid-template-columns:1fr 1fr}}
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:var(--shadow)}
+.panel{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:var(--shadow)}
 .panel p{color:var(--muted);font-weight:600;margin:10px 0 16px}
 .stars{font-size:28px;letter-spacing:4px;color:var(--gold);line-height:1}
 label{display:block;font-weight:800;font-size:14px;margin:15px 0 7px}
 label:first-of-type{margin-top:4px}
-input.txt,select.txt{width:100%;min-height:50px;border:1.5px solid var(--line);border-radius:11px;padding:12px 13px;font:inherit;font-weight:600;background:var(--bg);color:var(--ink)}
-input.txt:focus,select.txt:focus{outline:3px solid rgba(255,179,0,.4);border-color:var(--gold)}
+input.txt,select.txt{width:100%;min-height:50px;border:1.5px solid var(--line);border-radius:11px;padding:12px 13px;font:inherit;font-weight:600;background:var(--bg2);color:var(--ink)}
+input.txt:focus,select.txt:focus{outline:3px solid rgba(228,0,43,.18);border-color:var(--red)}
 .form-note{font-size:13px;color:var(--muted);font-weight:600;margin-top:11px}
 .info-list{display:grid;gap:11px;margin:16px 0}
-.info-item{display:flex;gap:12px;align-items:flex-start;background:var(--bg);border:1px solid var(--line);border-radius:13px;padding:13px}
+.info-item{display:flex;gap:12px;align-items:flex-start;background:var(--bg2);border:1px solid var(--line);border-radius:13px;padding:13px}
 .info-item .ic{font-size:21px;line-height:1}
 .info-item b{display:block}
 .info-item span{color:var(--muted);font-weight:600;font-size:14px}
 .contact-btns{display:grid;gap:10px}
 @media(min-width:560px){.contact-btns{grid-template-columns:1fr 1fr}}
 .contact-btns .btn{width:100%}
-footer{background:#1D1002;color:#F7E3BC;padding:32px 0 100px;margin-top:36px}
+.shop-strip{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.shop-strip span{background:var(--red-soft);border:1px solid #FFD3DA;color:var(--red-dark);padding:7px 12px;border-radius:999px;font-size:13px;font-weight:700}
+footer{background:#141419;color:#C9C9D2;padding:32px 0 100px;margin-top:36px}
 footer .foot-grid{display:grid;gap:20px}
 @media(min-width:760px){footer .foot-grid{grid-template-columns:1.3fr 1fr 1fr}}
 footer h3{color:#fff;font-size:20px}
-footer a{color:#FFD98A;font-weight:700;text-decoration:none}
-footer p,footer li{color:#D9B98A;font-weight:600}
+footer a{color:#FF8FA3;font-weight:700;text-decoration:none}
+footer p,footer li{color:#A9A9B3;font-weight:600}
 footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
-.copy{border-top:1px solid rgba(255,255,255,.14);margin-top:22px;padding-top:15px;font-size:13px;color:#B99B62}
+.copy{border-top:1px solid rgba(255,255,255,.12);margin-top:22px;padding-top:15px;font-size:13px;color:#7E7E88}
 .float-wa{position:fixed;right:16px;bottom:16px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center;text-decoration:none;box-shadow:0 12px 26px rgba(18,140,74,.45);font-size:28px}
-.float-wa:after{content:"Chat karo";position:absolute;right:70px;background:var(--ink);color:var(--bg);font-size:13px;font-weight:800;padding:8px 11px;border-radius:999px;white-space:nowrap}
-@media(max-width:480px){.float-wa:after{display:none}}
-.head-btn.points{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#2B1500;border-color:#FFE082;box-shadow:0 4px 14px rgba(255,179,0,.45)}
-.points-strip{margin:16px 0 0;border-radius:18px;background:linear-gradient(90deg,#FFB300,#FF7A1A);color:#2B1500;padding:20px 22px;display:flex;align-items:center;gap:18px;flex-wrap:wrap;box-shadow:0 10px 28px rgba(243,93,0,.28);border:2px solid #FFD23F}
-.points-strip .ps-txt{flex:1;min-width:230px}
-.points-strip .ps-txt b{font-family:"Archivo";font-size:clamp(21px,3.6vw,28px);display:block;line-height:1.15}
-.points-strip .ps-txt span{font-weight:700;font-size:15px;opacity:.85}
-.points-strip .btn{font-size:17px;min-height:56px;padding:14px 24px;border-radius:12px;white-space:nowrap}
-.benefit-grid{display:grid;gap:11px;margin:22px 0;position:relative;z-index:1}
-@media(min-width:640px){.benefit-grid{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:980px){.benefit-grid{grid-template-columns:repeat(3,1fr)}}
-.benefit{background:rgba(255,255,255,.09);border:1px solid rgba(255,210,63,.35);border-radius:14px;padding:16px;display:flex;gap:12px;align-items:flex-start}
-.benefit .bic{font-size:26px;line-height:1.1;flex-shrink:0}
-.benefit b{display:block;font-size:16px;line-height:1.3}
-.benefit span{display:block;color:#F5D9A8;font-weight:600;font-size:13.5px;margin-top:3px;line-height:1.45}
-.benefit.hero-ben{background:linear-gradient(135deg,#FFB300,#FF8A1E);border-color:#FFD23F;color:#2B1500}
-.benefit.hero-ben span{color:#5C2E00}
-.loyalty-cta{display:flex;gap:12px;flex-wrap:wrap;position:relative;z-index:1;align-items:center}
-.loyalty-cta .btn{font-size:18px;min-height:60px;padding:16px 26px;border-radius:13px}
-.loyalty-note{position:relative;z-index:1;color:#F5D9A8;font-weight:700;font-size:14px;margin-top:14px}
-.links-grid{display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
-@media(min-width:760px){.links-grid{grid-template-columns:repeat(3,1fr)}}
-@media(min-width:1080px){.links-grid{grid-template-columns:repeat(4,1fr)}}
-.link-card{background:var(--surface);border:1.5px solid var(--line);border-radius:16px;padding:18px 14px;text-decoration:none;display:flex;flex-direction:column;gap:5px;box-shadow:var(--shadow);transition:.15s;min-height:118px}
-.link-card:active{transform:scale(.98)}
-.link-card .lic{font-size:30px;line-height:1}
-.link-card b{font-size:16px;line-height:1.25}
-.link-card span{font-size:13px;font-weight:600;color:var(--muted);line-height:1.45}
-.link-card .lgo{margin-top:auto;font-weight:800;font-size:13.5px;color:var(--orange)}
-.link-card.hl{background:linear-gradient(135deg,#FFB300,#FF7A1A);border-color:#FFB300;color:#2B1500}
-.link-card.hl span{color:#5C2E00}
-.link-card.hl .lgo{color:#2B1500}
-.games-zone{background:linear-gradient(135deg,#E64E00,#F96302 45%,#FFB300);border-radius:22px;padding:clamp(22px,4vw,36px);position:relative;overflow:hidden;box-shadow:0 14px 34px rgba(243,93,0,.30)}
-.games-zone:before{content:"🎁";position:absolute;right:6px;top:-24px;font-size:150px;opacity:.14;line-height:1}
-.games-zone h2{color:#fff;font-size:clamp(27px,5vw,38px);position:relative}
-.games-zone .gz-sub{color:#FFE9C4;font-weight:700;margin-top:8px;font-size:16px;position:relative;max-width:640px}
-.game-grid{display:grid;gap:16px;margin-top:22px;position:relative}
-@media(min-width:760px){.game-grid{grid-template-columns:1fr 1fr}}
-.game-card{background:#fff;border-radius:18px;padding:26px 22px;color:#221306;box-shadow:0 10px 24px rgba(90,30,0,.22);display:flex;flex-direction:column}
-@media(prefers-color-scheme:dark){.game-card{background:#2E1D09;color:#FFF3DC}}
-.game-card .gic{font-size:52px;line-height:1}
-.game-card h3{font-size:clamp(26px,4.5vw,34px);font-weight:900;margin:12px 0 6px;letter-spacing:.01em}
-.game-card .gline{font-weight:800;font-size:17px;color:var(--orange)}
-.game-card .gifts{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 18px}
-.game-card .gifts span{background:var(--orange-soft);border:1px solid var(--line);font-weight:700;font-size:12.5px;padding:6px 10px;border-radius:999px}
-.game-card .btn{margin-top:auto;font-size:17px;min-height:56px;border-radius:12px}
-.game-card p.gnote{font-size:13.5px;font-weight:600;color:var(--muted);margin-top:12px}
 </style>
 </head>
 <body>
 
-<div class="strip">
-  <div class="wrap strip-in">
-    <span>🏷️ Best Price | 💳 Easy EMI | 🔄 Exchange Offer</span>
-    <span class="mid">Mobile World — Pratap Bazaar, Chheharta, Amritsar • Roz 11 AM – 9 PM</span>
-    <a href="tel:+919592717735">📞 95927 17735</a>
-  </div>
-</div>
-
+<!-- THIN HEADER -->
 <header class="site">
   <div class="wrap head-in">
     <a class="logo" href="#top" aria-label="Mobile World home">
-      <b>MOBILE WORLD</b>
+      <b>MOBILE <i>WORLD</i></b>
       <span>Chheharta • Amritsar</span>
     </a>
-    <form class="search" id="searchForm" role="search">
-      <input id="searchInput" type="search" placeholder="Phone dhundo — iPhone, Galaxy, Vivo, Reno..." aria-label="Phone search karo" autocomplete="off">
-      <button type="submit" aria-label="Search">🔍 Dhundo</button>
-    </form>
-    <div class="head-btns">
-      <a class="head-btn points" href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener">⭐ Points Check</a>
-      <a class="head-btn" href="tel:+919592717735">📞 Call</a>
-      <a class="head-btn solid" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20phone%20ke%20baare%20me%20jaankari%20chahiye" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <div class="head-icons">
+      <a class="icon-btn call" href="tel:+919592717735" aria-label="Call karo">📞</a>
+      <a class="icon-btn wa" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20phone%20ke%20baare%20me%20jaankari%20chahiye" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
     </div>
   </div>
-  <nav class="catnav" aria-label="Categories">
-    <div class="wrap catnav-in">
-      <a href="#latest">📱 Latest Smartphones</a>
-      <a href="#brands">🏷️ Brands</a>
-      <a href="#budget">💰 Budget Phones</a>
-      <a href="#fiveg">📶 5G Mobiles</a>
-      <a href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener" style="background:#FFB300;color:#2B1500;font-weight:800">⭐ Points Check Karo</a>
-      <a href="#loyalty">🎁 Loyalty Fayde</a>
-      <a href="#fun">🎟️ Scratch &amp; Win</a>
-      <a href="#fun">🎡 Spin &amp; Win</a>
-      <a href="#links">🔗 Saare Link</a>
-      <a href="#visit">📍 Dukaan Par Aao</a>
-    </div>
-  </nav>
 </header>
 
 <main id="top">
-  <div class="wrap">
-    <div class="banner">
-      <span class="tag">🍎 APPLE AUTHORISED STORE</span>
-      <h1>Latest Smartphones — <em>Best Price</em> par, Easy EMI ke saath</h1>
-      <p>iPhone se Infinix tak, har brand ka naya phone — sealed pack, company warranty aur purane phone ka exchange, sab ek hi dukaan par.</p>
-      <div class="banner-cta">
-        <a class="btn btn-white" href="tel:+919592717735" style="min-height:54px;font-size:16px">📞 Call Karo — 95927 17735</a>
-        <a class="btn btn-wa" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20naya%20phone%20lena%20hai%2C%20best%20price%20batao" target="_blank" rel="noopener" style="min-height:54px;font-size:16px">💬 WhatsApp Par Daam Pucho</a>
+
+  <!-- 1. SIRF SLIDES — SABSE UPAR -->
+  <div class="hero" id="hero" aria-label="Featured phones">
+    <div id="heroTrack">
+      <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(228,0,43,.35),transparent 60%),linear-gradient(140deg,#17171C,#3A0A14)">
+        <span class="hs-kicker">Apple Authorised Store</span>
+        <h1>iPhone 17 Pro Max</h1>
+        <p>Sabse powerful iPhone — Pro camera, titanium design. Best Price aur Easy EMI ke saath.</p>
+        <div class="hero-phone" style="background:linear-gradient(160deg,#4A4A4A,#111)"><span class="cam"><i></i><i></i></span><span class="bl">Apple</span></div>
+        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20iPhone%2017%20Pro%20Max%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
       </div>
-      <div class="banner-points">
-        <span>✅ 100% Genuine Sealed Pack</span>
-        <span>💳 EMI bina credit card bhi</span>
-        <span>🔄 Purana phone exchange</span>
-        <span>🕚 Aaj khula hai • 11 AM – 9 PM</span>
+      <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(47,124,255,.35),transparent 60%),linear-gradient(140deg,#0B1226,#0B2A6B)">
+        <span class="hs-kicker">Galaxy AI</span>
+        <h1>Samsung Galaxy S25 Ultra</h1>
+        <p>Galaxy AI, S-Pen aur 200MP camera — flagship ka raja, Mobile World par uplabdh.</p>
+        <div class="hero-phone" style="background:linear-gradient(160deg,#2F7CFF,#0B2A6B)"><span class="cam"><i></i><i></i></span><span class="bl">Galaxy</span></div>
+        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Samsung%20Galaxy%20S25%20Ultra%205G%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
+      </div>
+      <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(56,189,248,.3),transparent 60%),linear-gradient(140deg,#081A33,#0B4FD6)">
+        <span class="hs-kicker">Camera Special</span>
+        <h1>Vivo V80</h1>
+        <p>ZEISS-style portrait camera aur slim premium design — photo lovers ki pehli pasand.</p>
+        <div class="hero-phone" style="background:linear-gradient(160deg,#38BDF8,#0B4FD6)"><span class="cam"><i></i><i></i></span><span class="bl">vivo</span></div>
+        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Vivo%20V80%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
+      </div>
+      <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(52,211,153,.3),transparent 60%),linear-gradient(140deg,#06231A,#065F46)">
+        <span class="hs-kicker">Reno Series</span>
+        <h1>Oppo Reno 14</h1>
+        <p>AI camera aur tez charging ka combo — style ke saath pura performance.</p>
+        <div class="hero-phone" style="background:linear-gradient(160deg,#34D399,#065F46)"><span class="cam"><i></i><i></i></span><span class="bl">oppo</span></div>
+        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Oppo%20Reno%2014%205G%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
+      </div>
+      <div class="hero-slide" style="background:radial-gradient(600px 300px at 85% 0%,rgba(239,68,68,.3),transparent 60%),linear-gradient(140deg,#2A0A0A,#991B1B)">
+        <span class="hs-kicker">Flagship Speed</span>
+        <h1>OnePlus 13</h1>
+        <p>Flagship speed, Hasselblad camera — smooth OxygenOS experience ke saath.</p>
+        <div class="hero-phone" style="background:linear-gradient(160deg,#EF4444,#991B1B)"><span class="cam"><i></i><i></i></span><span class="bl">OnePlus</span></div>
+        <a class="hero-cta" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20OnePlus%2013%205G%20ka%20best%20price%20aur%20stock%20batao" target="_blank" rel="noopener">💬 Daam Pucho — WhatsApp</a>
       </div>
     </div>
-    <div class="points-strip">
-      <div class="ps-txt">
-        <b>⭐ Apne Points Check Karo!</b>
-        <span>Mobile World Points — har Rs.100 ki kharid par 1 Point (1 Point = Rs.1). Points kabhi expire nahi hote!</span>
-      </div>
-      <a class="btn btn-dark" href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener">⭐ POINTS CHECK KARO →</a>
-    </div>
+    <button class="hero-arrow prev" id="heroPrev" aria-label="Pichli slide">‹</button>
+    <button class="hero-arrow next" id="heroNext" aria-label="Agli slide">›</button>
+    <div class="hero-dots" id="heroDots"></div>
   </div>
 
-  <section id="brands">
+  <!-- 2. ROUND BRANDS -->
+  <section id="brands" style="padding-top:24px">
     <div class="wrap">
       <div class="sec-head">
-        <div>
-          <h2>Top Brands</h2>
-          <p>Apna brand chuno — usi brand ke saare phone neeche catalog me dikh jayenge.</p>
-        </div>
-        <button class="btn btn-outline" id="clearBrand" style="min-height:42px;padding:9px 14px;font-size:14px">Sab Brands Dikhao</button>
+        <h2>Shop by Brand</h2>
+        <p>Round brand par tap karo — usi brand ke models neeche catalog me dikh jayenge.</p>
       </div>
-      <div class="brand-grid" id="brandGrid">
-        <button class="brand-tile" data-brand="apple"><span class="circ b-apple">A</span><b>Apple</b><small>iPhone Series</small></button>
-        <button class="brand-tile" data-brand="samsung"><span class="circ b-samsung">S</span><b>Samsung</b><small>Galaxy Series</small></button>
-        <button class="brand-tile" data-brand="vivo"><span class="circ b-vivo">V</span><b>Vivo</b><small>V • Y • T Series</small></button>
+      <div class="brand-row" id="brandGrid">
+        <button class="brand-tile" data-brand="apple"><span class="circ b-apple">A</span><b>Apple</b><small>iPhone</small></button>
+        <button class="brand-tile" data-brand="samsung"><span class="circ b-samsung">S</span><b>Samsung</b><small>Galaxy</small></button>
+        <button class="brand-tile" data-brand="vivo"><span class="circ b-vivo">V</span><b>Vivo</b><small>V • Y • T</small></button>
         <button class="brand-tile" data-brand="oppo"><span class="circ b-oppo">O</span><b>Oppo</b><small>Reno • F • A</small></button>
-        <button class="brand-tile" data-brand="realme"><span class="circ b-realme">R</span><b>Realme</b><small>Number • P • Narzo</small></button>
-        <button class="brand-tile" data-brand="oneplus"><span class="circ b-oneplus">1+</span><b>OnePlus</b><small>Nord Series</small></button>
-        <button class="brand-tile" data-brand="infinix"><span class="circ b-infinix">In</span><b>Infinix</b><small>Smart • Note • Hot</small></button>
+        <button class="brand-tile" data-brand="realme"><span class="circ b-realme">R</span><b>Realme</b><small>Number • Narzo</small></button>
+        <button class="brand-tile" data-brand="oneplus"><span class="circ b-oneplus">1+</span><b>OnePlus</b><small>Nord</small></button>
+        <button class="brand-tile" data-brand="infinix"><span class="circ b-infinix">In</span><b>Infinix</b><small>Smart • Note</small></button>
+      </div>
+      <button class="btn btn-outline brand-clear hidden" id="clearBrand" style="min-height:42px;padding:9px 14px;font-size:14px">✕ Filter Hatao — Sab Brands Dikhao</button>
+      <div class="shop-strip">
+        <span>🏷️ Best Price</span><span>💳 Easy EMI — bina credit card bhi</span><span>🔄 Exchange Offer</span><span>🕚 Roz 11 AM – 9 PM</span>
       </div>
     </div>
   </section>
 
-  <section id="budget">
+  <!-- 3. CUSTOMER + SHOP PHOTOS -->
+  <section id="customers">
     <div class="wrap">
       <div class="sec-head">
-        <div>
-          <h2>Find Your Ideal Match</h2>
-          <p>Apna budget chuno — budget ke hisaab ke phone catalog me chunn kar dikh jayenge.</p>
+        <h2>📸 Hamare Khush Customers</h2>
+        <p>Mobile World ke customers aur dukaan ki jhalak — asli photos jald aa rahi hain.</p>
+      </div>
+      <div class="cust-strip">
+        <div class="cust-track" id="custTrack">
+          <div class="cust-slide"><div class="cust-frame"><span class="cf-ic">📸</span><b>Customer Photo — jald aa rahi hai</b><span>Naya phone lete hue khush customer ki photo yahan lagegi</span></div></div>
+          <div class="cust-slide"><div class="cust-frame"><span class="cf-ic">🏪</span><b>Shop Photo — jald aa rahi hai</b><span>Mobile World dukaan, Pratap Bazaar Chheharta ki photo yahan lagegi</span></div></div>
+          <div class="cust-slide"><div class="cust-frame"><span class="cf-ic">🎉</span><b>Customer Photo — jald aa rahi hai</b><span>Delivery aur unboxing ke khaas pal yahan lagenge</span></div></div>
+          <div class="cust-slide"><div class="cust-frame"><span class="cf-ic">📱</span><b>Shop Photo — jald aa rahi hai</b><span>Dukaan ke display aur naye stock ki photo yahan lagegi</span></div></div>
+          <div class="cust-slide"><div class="cust-frame"><span class="cf-ic">😊</span><b>Customer Photo — jald aa rahi hai</b><span>Family ke saath phone kharidne aaye customers ki photo yahan lagegi</span></div></div>
+          <div class="cust-slide"><div class="cust-frame"><span class="cf-ic">🎁</span><b>Shop Photo — jald aa rahi hai</b><span>Offers, gifts aur dukaan ke khaas pal yahan lagenge</span></div></div>
         </div>
       </div>
-      <div class="budget-grid" id="budgetGrid">
-        <button class="budget-card bg1" data-budget="1"><span class="ic">💚</span><b>Rs.10,000 ke andar</b><span>Pehla smartphone, badi battery — sabse kam budget</span></button>
-        <button class="budget-card bg2" data-budget="2"><span class="ic">📱</span><b>Rs.15,000 ke andar</b><span>Roz ke kaam aur family ke liye best value</span></button>
-        <button class="budget-card bg3" data-budget="3"><span class="ic">📸</span><b>Rs.20,000 ke andar</b><span>Achha camera, 5G aur smooth display</span></button>
-        <button class="budget-card bg4" data-budget="4"><span class="ic">⚡</span><b>Rs.30,000 ke andar</b><span>Tez performance, premium feel wala phone</span></button>
-        <button class="budget-card bg5" data-budget="5"><span class="ic">👑</span><b>Premium Phones</b><span>iPhone aur flagship — sabse upar wala experience</span></button>
-      </div>
+      <div class="cust-dots" id="custDots"></div>
     </div>
   </section>
 
+  <!-- CATALOG -->
   <section id="latest">
     <div class="wrap">
-      <div class="sec-head">
+      <div class="sec-head" style="display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap">
         <div>
           <h2>Latest Smartphones</h2>
           <p>Har phone ka aaj ka best daam dukaan / WhatsApp par confirm hota hai — card se seedha pucho.</p>
         </div>
         <span class="sec-count" id="catalogCount"></span>
+      </div>
+      <form class="search" id="searchForm" role="search">
+        <input id="searchInput" type="search" placeholder="Phone dhundo — iPhone, Galaxy, Vivo, Reno..." aria-label="Phone search karo" autocomplete="off">
+        <button type="submit" aria-label="Search">🔍 Dhundo</button>
+      </form>
+      <div class="budget-grid" id="budgetGrid" style="margin-bottom:20px">
+        <button class="budget-card" data-budget="1"><span class="ic">💚</span><b>Rs.10,000 ke andar</b><span>Pehla smartphone, badi battery</span></button>
+        <button class="budget-card" data-budget="2"><span class="ic">📱</span><b>Rs.15,000 ke andar</b><span>Roz ke kaam ke liye best value</span></button>
+        <button class="budget-card" data-budget="3"><span class="ic">📸</span><b>Rs.20,000 ke andar</b><span>Achha camera, 5G, smooth display</span></button>
+        <button class="budget-card" data-budget="4"><span class="ic">⚡</span><b>Rs.30,000 ke andar</b><span>Tez performance, premium feel</span></button>
+        <button class="budget-card" data-budget="5"><span class="ic">👑</span><b>Premium Phones</b><span>iPhone aur flagship models</span></button>
       </div>
       <div class="prod-grid" id="catalogGrid"></div>
       <div class="empty-msg hidden" id="catalogEmpty">
@@ -364,8 +372,8 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
         <h2>5G Smart Phones</h2>
         <p>Superfast 5G ke saath future-ready phone — har budget me 5G model uplabdh hai.</p>
       </div>
-      <div class="sec-head" style="margin-top:22px">
-        <div><h2>5G Mobiles</h2></div>
+      <div class="sec-head" style="margin-top:22px;display:flex;align-items:flex-end;justify-content:space-between;gap:14px">
+        <h2 style="font-size:22px">5G Mobiles</h2>
         <span class="sec-count" id="fivegCount"></span>
       </div>
       <div class="prod-grid" id="fivegGrid"></div>
@@ -374,7 +382,7 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
 
   <section id="why">
     <div class="wrap">
-      <div class="sec-head"><div><h2>Why Mobile World?</h2><p>Badi chain jaisa bharosa, apni dukaan jaisi service.</p></div></div>
+      <div class="sec-head"><h2>Why Mobile World?</h2><p>Badi chain jaisa bharosa, apni dukaan jaisi service.</p></div>
       <div class="why-grid">
         <div class="why"><div class="ic">📦</div><b>100% Genuine</b><span>Sealed pack phone, proper bill ke saath</span></div>
         <div class="why"><div class="ic">🏷️</div><b>Best Price</b><span>Har phone par bazaar se behtar daam ki koshish</span></div>
@@ -385,11 +393,12 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
     </div>
   </section>
 
+  <!-- LOYALTY -->
   <section id="loyalty">
     <div class="wrap">
-      <div class="loyalty" style="padding:clamp(26px,4.5vw,40px)">
-        <h2 style="font-size:clamp(28px,5vw,40px)">⭐ Mobile World Points</h2>
-        <p class="sub" style="font-size:16.5px">Har kharid par points kamao aur agli shopping par rupe ki tarah use karo. Ek baar member bano — fayda har baar pao. Ye rahe customer ke SAARRE fayde:</p>
+      <div class="loyalty">
+        <h2 style="font-size:clamp(27px,5vw,38px)">⭐ Mobile World Points</h2>
+        <p class="sub" style="font-size:16px">Har kharid par points kamao aur agli shopping par rupe ki tarah use karo. Ek baar member bano — fayda har baar pao. Ye rahe customer ke SAARRE fayde:</p>
         <div class="benefit-grid">
           <div class="benefit hero-ben"><span class="bic">🪙</span><div><b>Har Rs.100 ki kharid = 1 Point</b><span>1 Point = Rs.1 — points seedha rupe ki tarah agli shopping me kam hote hain</span></div></div>
           <div class="benefit"><span class="bic">🧾</span><div><b>Rs.5,000+ ki shopping par points milte hain</b><span>Phone ho ya accessories — Rs.5,000 se upar ke har bill par points judte hain</span></div></div>
@@ -403,13 +412,14 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
         </div>
         <div class="loyalty-cta">
           <a class="btn btn-gold" href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener">⭐ APNE POINTS CHECK KARO / MEMBER BANO →</a>
-          <a class="btn btn-wa" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Loyalty%20Points%20member%20banna%20hai" target="_blank" rel="noopener" style="min-height:60px;font-size:16px">💬 WhatsApp Par Member Bano</a>
+          <a class="btn btn-wa" href="https://wa.me/919592717735?text=Namaste%20Mobile%20World%2C%20mujhe%20Loyalty%20Points%20member%20banna%20hai" target="_blank" rel="noopener" style="min-height:58px;font-size:16px">💬 WhatsApp Par Member Bano</a>
         </div>
         <p class="loyalty-note">👆 Button dabao, apna mobile number daalo — aapka points balance turant dikh jayega. Abhi member nahi ho? Wahi se jud jao, 50 Welcome Points FREE milenge!</p>
       </div>
     </div>
   </section>
 
+  <!-- GAMES -->
   <section id="fun">
     <div class="wrap">
       <div class="games-zone">
@@ -423,7 +433,7 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
             <div class="gifts">
               <span>🛡️ Free Tempered Glass</span><span>🎧 Airpods</span><span>🎵 Earphones</span><span>🎤 Neckband</span><span>🔊 Speaker</span><span>🏷️ Discount Coupons</span>
             </div>
-            <a class="btn btn-gold" href="https://mobileworldchheharta.github.io/scratch-coupon/" target="_blank" rel="noopener">🎟️ Abhi Khelo — Scratch Karo →</a>
+            <a class="btn btn-red" href="https://mobileworldchheharta.github.io/scratch-coupon/" target="_blank" rel="noopener">🎟️ Abhi Khelo — Scratch Karo →</a>
             <p class="gnote">Product kharidne wale customers ke liye khaas — card chuno, ungli se scratch karo, surprise gift pao!</p>
           </div>
           <div class="game-card">
@@ -433,7 +443,7 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
             <div class="gifts">
               <span>🛡️ Free Tempered Glass</span><span>🎧 Airpods</span><span>🎵 Earphones</span><span>🎤 Neckband</span><span>🔊 Speaker</span><span>🏷️ ₹100 Discount Coupon</span>
             </div>
-            <a class="btn btn-gold" href="https://mobileworldchheharta.github.io/spin-wheel/" target="_blank" rel="noopener">🎡 Abhi Khelo — Spin Karo →</a>
+            <a class="btn btn-red" href="https://mobileworldchheharta.github.io/spin-wheel/" target="_blank" rel="noopener">🎡 Abhi Khelo — Spin Karo →</a>
             <p class="gnote">Ek tap me wheel ghumega — jo gift aaya, wahi tumhara! Dukaan par dikha kar claim karo.</p>
           </div>
         </div>
@@ -441,9 +451,10 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
     </div>
   </section>
 
+  <!-- SAARE LINK -->
   <section id="links">
     <div class="wrap">
-      <div class="sec-head"><div><h2>🔗 Saare Link — Ek Jagah</h2><p>Mobile World ki har seva ek hi jagah — jo chahiye, bas tap karo.</p></div></div>
+      <div class="sec-head"><h2>🔗 Saare Link — Ek Jagah</h2><p>Mobile World ki har seva ek hi jagah — jo chahiye, bas tap karo.</p></div>
       <div class="links-grid">
         <a class="link-card hl" href="https://mobileworldchheharta.github.io/mobile-world-profile/loyalty/?p=join" target="_blank" rel="noopener"><span class="lic">⭐</span><b>Points Check Karo</b><span>Apna loyalty points balance dekho / member bano — 50 points FREE</span><span class="lgo">Points Dekho →</span></a>
         <a class="link-card" href="https://mobileworldchheharta.github.io/scratch-coupon/" target="_blank" rel="noopener"><span class="lic">🎟️</span><b>Scratch &amp; Win</b><span>Coupon scratch karo, inaam jeeto — kharidari wale customers ke liye</span><span class="lgo">Abhi Khelo →</span></a>
@@ -490,9 +501,10 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
     </div>
   </section>
 
+  <!-- SHOP INFO -->
   <section id="visit">
     <div class="wrap">
-      <div class="sec-head"><div><h2>Dukaan Par Aao</h2><p>Phone haath me le kar dekho, phir faisla karo.</p></div></div>
+      <div class="sec-head"><h2>Dukaan Par Aao</h2><p>Phone haath me le kar dekho, phir faisla karo.</p></div>
       <div class="panel">
         <div class="info-list">
           <div class="info-item"><span class="ic">📍</span><div><b>Mobile World — Apple Authorised Store</b><span>Pratap Bazaar, Chheharta, Amritsar — 143105</span></div></div>
@@ -501,7 +513,7 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
           <div class="info-item"><span class="ic">📸</span><div><b>Instagram — @mobileworldchheharta</b><span>Naye offers aur reels ke liye follow karo</span></div></div>
         </div>
         <div class="contact-btns">
-          <a class="btn btn-gold" href="https://maps.app.goo.gl/EuW7bQib6asVea2P6" target="_blank" rel="noopener">🗺️ Dukaan Ka Rasta (Google Maps)</a>
+          <a class="btn btn-red" href="https://maps.app.goo.gl/EuW7bQib6asVea2P6" target="_blank" rel="noopener">🗺️ Dukaan Ka Rasta (Google Maps)</a>
           <a class="btn btn-dark" href="tel:+919592717735">📞 Abhi Call Karo</a>
           <a class="btn btn-outline" href="https://www.instagram.com/mobileworldchheharta/" target="_blank" rel="noopener">📸 Instagram Par Dekho</a>
           <a class="btn btn-wa" href="https://chat.whatsapp.com/JFOWpwxGsHuLM4SogmP4ab" target="_blank" rel="noopener">👥 WhatsApp Community Join Karo</a>
@@ -546,13 +558,13 @@ footer ul{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:8px}
 
 <script>
 var BRANDS = {
-  apple:{label:'Apple',grad:'linear-gradient(160deg,#4A4A4A,#111)',bg:'#ECECEC',short:'Apple'},
-  samsung:{label:'Samsung',grad:'linear-gradient(160deg,#2F7CFF,#0B2A6B)',bg:'#E4EDFF',short:'Galaxy'},
-  vivo:{label:'Vivo',grad:'linear-gradient(160deg,#38BDF8,#0B4FD6)',bg:'#E2F2FF',short:'vivo'},
-  oppo:{label:'Oppo',grad:'linear-gradient(160deg,#34D399,#065F46)',bg:'#DFF7EC',short:'oppo'},
-  realme:{label:'Realme',grad:'linear-gradient(160deg,#FACC15,#D97706)',bg:'#FFF6CC',short:'realme'},
-  oneplus:{label:'OnePlus',grad:'linear-gradient(160deg,#EF4444,#991B1B)',bg:'#FDE3E3',short:'OnePlus'},
-  infinix:{label:'Infinix',grad:'linear-gradient(160deg,#22C55E,#065F46)',bg:'#DFF7E6',short:'Infinix'}
+  apple:{label:'Apple',grad:'linear-gradient(160deg,#4A4A4A,#111)',bg:'#F2F2F4',short:'Apple'},
+  samsung:{label:'Samsung',grad:'linear-gradient(160deg,#2F7CFF,#0B2A6B)',bg:'#EAF0FF',short:'Galaxy'},
+  vivo:{label:'Vivo',grad:'linear-gradient(160deg,#38BDF8,#0B4FD6)',bg:'#E8F5FF',short:'vivo'},
+  oppo:{label:'Oppo',grad:'linear-gradient(160deg,#34D399,#065F46)',bg:'#E6F7EF',short:'oppo'},
+  realme:{label:'Realme',grad:'linear-gradient(160deg,#FACC15,#D97706)',bg:'#FFF8D6',short:'realme'},
+  oneplus:{label:'OnePlus',grad:'linear-gradient(160deg,#EF4444,#991B1B)',bg:'#FDECEC',short:'OnePlus'},
+  infinix:{label:'Infinix',grad:'linear-gradient(160deg,#22C55E,#065F46)',bg:'#E6F7EC',short:'Infinix'}
 };
 var PRODUCTS = [
   {b:'apple',n:'iPhone 17 Pro Max',s:'256GB • 512GB • 1TB',k:'Sabse powerful iPhone — Pro camera, titanium design',g:1,t:5,nw:1},
@@ -644,12 +656,14 @@ document.querySelectorAll('.brand-tile').forEach(function(tile){
     var b = tile.getAttribute('data-brand');
     state.brand = (state.brand === b) ? 'all' : b;
     document.querySelectorAll('.brand-tile').forEach(function(t){ t.classList.toggle('active', t.getAttribute('data-brand') === state.brand); });
+    document.getElementById('clearBrand').classList.toggle('hidden', state.brand === 'all');
     render(); scrollToCatalog();
   });
 });
 document.getElementById('clearBrand').addEventListener('click', function(){
   state.brand = 'all';
   document.querySelectorAll('.brand-tile').forEach(function(t){ t.classList.remove('active'); });
+  document.getElementById('clearBrand').classList.add('hidden');
   render();
 });
 document.querySelectorAll('.budget-card').forEach(function(card){
@@ -670,9 +684,75 @@ document.getElementById('resetFilters').addEventListener('click', function(){
   state = {brand:'all', budget:0, query:''};
   searchInput.value = '';
   document.querySelectorAll('.brand-tile,.budget-card').forEach(function(t){ t.classList.remove('active'); });
+  document.getElementById('clearBrand').classList.add('hidden');
   render();
 });
 render();
+/* HERO CAROUSEL */
+(function(){
+  var track = document.getElementById('heroTrack');
+  var slides = track.children.length;
+  var dotsBox = document.getElementById('heroDots');
+  var idx = 0, timer = null;
+  for(var i=0;i<slides;i++){
+    var d = document.createElement('button');
+    d.setAttribute('aria-label','Slide ' + (i+1));
+    (function(n){ d.addEventListener('click', function(){ go(n); restart(); }); })(i);
+    dotsBox.appendChild(d);
+  }
+  function paint(){
+    for(var k=0;k<track.children.length;k++){
+      track.children[k].classList.toggle('on', k===idx);
+      track.children[k].setAttribute('aria-hidden', k===idx ? 'false' : 'true');
+    }
+    for(var j=0;j<dotsBox.children.length;j++) dotsBox.children[j].classList.toggle('on', j===idx);
+  }
+  function go(n){ idx = (n + slides) % slides; paint(); }
+  function restart(){ clearInterval(timer); timer = setInterval(function(){ go(idx+1); }, 4000); }
+  document.getElementById('heroPrev').addEventListener('click', function(){ go(idx-1); restart(); });
+  document.getElementById('heroNext').addEventListener('click', function(){ go(idx+1); restart(); });
+  var sx = 0;
+  var hero = document.getElementById('hero');
+  hero.addEventListener('touchstart', function(e){ sx = e.touches[0].clientX; }, {passive:true});
+  hero.addEventListener('touchend', function(e){
+    var dx = e.changedTouches[0].clientX - sx;
+    if(Math.abs(dx) > 45){ go(dx < 0 ? idx+1 : idx-1); restart(); }
+  }, {passive:true});
+  paint(); restart();
+})();
+/* CUSTOMER PHOTOS CAROUSEL */
+(function(){
+  var track = document.getElementById('custTrack');
+  var total = track.children.length;
+  var dotsBox = document.getElementById('custDots');
+  var idx = 0, timer = null;
+  function perView(){ return window.innerWidth >= 1024 ? 3 : (window.innerWidth >= 700 ? 2 : 1); }
+  function maxIdx(){ return Math.max(0, total - perView()); }
+  function buildDots(){
+    dotsBox.innerHTML = '';
+    for(var i=0;i<=maxIdx();i++){
+      var d = document.createElement('button');
+      d.setAttribute('aria-label','Photos ' + (i+1));
+      (function(n){ d.addEventListener('click', function(){ go(n); restart(); }); })(i);
+      dotsBox.appendChild(d);
+    }
+  }
+  function paint(){
+    if(idx > maxIdx()) idx = maxIdx();
+    track.style.transform = 'translateX(-' + (idx * (100/perView())) + '%)';
+    for(var j=0;j<dotsBox.children.length;j++) dotsBox.children[j].classList.toggle('on', j===idx);
+  }
+  function go(n){ idx = n > maxIdx() ? 0 : (n < 0 ? maxIdx() : n); paint(); }
+  function restart(){ clearInterval(timer); timer = setInterval(function(){ go(idx+1); }, 3500); }
+  var sx = 0;
+  track.addEventListener('touchstart', function(e){ sx = e.touches[0].clientX; }, {passive:true});
+  track.addEventListener('touchend', function(e){
+    var dx = e.changedTouches[0].clientX - sx;
+    if(Math.abs(dx) > 45){ go(dx < 0 ? idx+1 : idx-1); restart(); }
+  }, {passive:true});
+  window.addEventListener('resize', function(){ buildDots(); paint(); });
+  buildDots(); paint(); restart();
+})();
 document.getElementById('enquiryForm').addEventListener('submit', function(e){
   e.preventDefault();
   var name = document.getElementById('fName').value.trim();
